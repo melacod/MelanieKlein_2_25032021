@@ -94,12 +94,15 @@ h2
     margin-right: -2px;
 }
 
-.search_input {
-
+.search_input 
+{
     border: 1px #F2F2F2 solid;
     padding: 10px;
     font-weight: bold;
     padding: 12px;
+    font-size: 1em;
+    font-family: 'Raleway';
+    font-weight: 700;
 }
 
 .search_button
@@ -127,12 +130,12 @@ h2
     align-items: center;
     justify-content: start;
     flex-wrap: wrap;
+    margin-top: 15px;
 }
 
 .filters > p
 {
-    font-family: 'Raleway';
-    font-weight:600;
+    font-weight:700;
 }
 
 .filter
