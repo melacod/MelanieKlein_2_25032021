@@ -1,7 +1,7 @@
 /* Feuille de style générale : commune à tous les supports */
 
 /* Utilisation de la font Raleway */
-@import url(//fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap);
+@import url(//fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap);
 
 body
 {
@@ -38,12 +38,14 @@ header
     color: black;
     line-height: 60px;
     width: 50%;
+    text-decoration: none;
 }
 
 /* Style pour le lien d'inscription */
 .inscription
 {
     text-align: center;
+    font-weight: 700;
     color: #0065FC;
     line-height: 62px;
 }
