@@ -43,3 +43,12 @@ a.lien:hover
 }
 
 /* Fin Style searchbar */
+
+/* Style des différents éléments composants la searchbar */
+
+.filters > p
+{
+    width: 100%;
+}
+
+/* Fin filterbar */

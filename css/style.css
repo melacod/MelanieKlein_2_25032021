@@ -95,7 +95,7 @@ h2
 }
 
 .search_input {
-    
+
     border: 1px #F2F2F2 solid;
     padding: 10px;
     font-weight: bold;
@@ -208,6 +208,11 @@ h2
     padding-top: 2px;
     padding-bottom: 2px;
     border-radius: 100%;
+}
+
+.info 
+{
+    padding-top: 15px;
 }
 
 /* Fin filterbar */
