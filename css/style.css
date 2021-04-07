@@ -95,6 +95,7 @@ h2
 }
 
 .search_input {
+    
     border: 1px #F2F2F2 solid;
     padding: 10px;
     font-weight: bold;
@@ -117,3 +118,96 @@ h2
 }
 
 /* Fin searchbar */
+
+/* Style des différents éléments composants la filterbar */
+
+.filters
+{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+.filters > p
+{
+    font-family: 'Raleway';
+    font-weight:600;
+}
+
+.filter
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.filter > input {
+    display: none;
+}
+
+/* Style pour l'icône */
+.filter > i
+{
+    z-index: 2;
+    padding: 13px;
+    padding-right: 14px;
+    border-radius: 100%;
+    margin-right: -42px;
+    width: 1em;
+}
+
+.filter > input:checked ~ i {
+    color: black;
+    border: #F2F2F2 solid 2px;
+    background-color: #F2F2F2;
+}
+
+.filter > input:not(:checked) ~ i {
+    color: #0065FC;
+    border: #DEEBFF solid 2px;
+    background-color: #DEEBFF;
+}
+
+/* Style pour le texte */
+.filter > span {
+    z-index: 1;
+    color: black;
+    font-weight: 200;
+    padding: 12px;
+    border-radius: 25px;
+    padding-left: 48px;
+}
+
+.filter > input:checked ~ span {
+    border: #F2F2F2 solid 2px;
+}
+
+.filter > input:not(:checked) ~ span {
+    border: #DEEBFF solid 2px;
+}
+
+/* Style pour le texte lorsqu'on survole le filtre */
+.filter:hover > input:not(:checked) ~ span {
+    background-color: #F2F2F2;
+}
+
+.filter:hover > input:checked ~ span {
+    background-color:#DEEBFF;
+}
+
+/* Style pour l'icône information */
+.info > i
+{
+    color:#0065FC;
+    background-color: white;
+    border: #DEEBFF solid 1px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 100%;
+}
+
+/* Fin filterbar */
