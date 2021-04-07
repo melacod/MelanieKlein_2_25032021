@@ -288,7 +288,6 @@ h2
 .hebergement > .stars 
 {
     margin-bottom: 5px;
-    color: #0065FC;
 }
 .populaires
 {
@@ -364,7 +363,6 @@ h2
 .populaire > div > span.stars
 {
     margin-left: 20px;
-    color: #0065FC;
 }
 .hebergement > h3
 {
@@ -378,6 +376,16 @@ h2
 .hebergement > span
 {
     padding-left: 7%;
+}
+
+span > .active
+{
+    color: #0065FC;
+}
+
+span > .inactive
+{
+    color: #DEEBFF;
 }
 
 /* Fin hebergements */
