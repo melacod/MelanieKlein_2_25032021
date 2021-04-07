@@ -243,7 +243,7 @@ h2
     margin: 2px;
     margin-right: 25px;
     padding: 12px;
-    width: 55%;
+    width: 80%;
 }
 .hebergements_marseille > h1
 {
@@ -295,7 +295,7 @@ h2
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    width: 25%;
+    width: 30%;
     background-color: #F2F2F2;
     border-radius: 25px;
     padding-bottom: 40px;
