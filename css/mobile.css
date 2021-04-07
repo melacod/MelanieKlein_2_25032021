@@ -2,6 +2,7 @@
 
 /* Modification de l'ordre des éléments de la flexbox d'entête */
 /* logo = 1 = 70% ; liens = 3 = 100% ; inscription = 2 = 30% */
+
 .logo
 {
     order: 1;
@@ -22,7 +23,23 @@
 }
 
 /* Ajout d'une bodure en bas pour les liens */
+
 a.lien:hover
 {
     border-bottom: 2px solid #0065FC;
 }
+
+/* Style des différents éléments composants la searchbar */
+
+.search_icon_right
+{
+    display: block;
+    color: white;
+    border-color: 2px #0065FC solid;
+    border-radius: 15px;
+    background-color: #0065FC;
+    margin-left: -10px; 
+    padding: 12px;
+}
+
+/* Fin Style searchbar */

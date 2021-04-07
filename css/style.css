@@ -1,6 +1,7 @@
 /* Feuille de style générale : commune à tous les supports */
 
 /* Utilisation de la font Raleway */
+
 @import url(//fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap);
 
 body
@@ -11,6 +12,7 @@ body
 }
 
 /* Flexbox pour l'entête */
+
 header
 {
    display: flex;
@@ -20,11 +22,13 @@ header
 }
 
 /* Style pour l'image du logo */
+
 .logo img {
     padding-left: 5px;
 }
 
 /* Flexbox pour les liens */
+
 .liens
 {
     display: flex;
@@ -33,6 +37,7 @@ header
 }
 
 /* Style des liens */
+
 .lien {
     text-align:center;
     color: black;
@@ -42,6 +47,7 @@ header
 }
 
 /* Style pour le lien d'inscription */
+
 .inscription
 {
     text-align: center;
@@ -51,12 +57,14 @@ header
 }
 
 /* Style des liens quand on les survole avec la souris */
+
 a.lien:hover
 {
     color: #0065FC;
 }
 
 /* Style des titres */
+
 h1
 {
     font-weight: 900;
@@ -68,3 +76,44 @@ h2
     font-weight: 400;
     font-size: 1em;
 }
+
+/* Style des différents éléments composants la searchbar */
+
+.search_flexbox
+{
+    display: flex;
+    align-items: stretch;
+}
+
+.search_icon_left
+{
+    padding: 12px;
+    border: 2px solid #F2F2F2;
+    border-radius: 10px 0px 0px 10px ;
+    background-color: #F2F2F2 ;
+    margin-right: -2px;
+}
+
+.search_input {
+    border: 1px #F2F2F2 solid;
+    padding: 10px;
+    font-weight: bold;
+    padding: 12px;
+}
+
+.search_button
+{
+   display:none;
+}
+
+.search_icon_right
+{
+    display: none;
+}
+
+.search_button_tablet
+{
+    display:none
+}
+
+/* Fin searchbar */

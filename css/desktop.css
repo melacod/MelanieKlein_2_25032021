@@ -2,6 +2,7 @@
 
 /* Répartition des éléments de la flexbox d'entête */
 /* logo = 70% ; liens = 20% ; inscription = 10% */
+
 .logo
 {
     flex: 70 auto;
@@ -18,7 +19,23 @@
 }
 
 /* Ajout d'une bodure en haut pour les liens */
+
 a.lien:hover
 {
     border-top: 2px solid #0065FC;
 }
+
+/* Style des différents éléments composants la searchbar */
+
+.search_button
+{
+    display: block;
+    border: 2px solid #0065FC;
+    color: white;
+    background-color: #0065FC;
+    border-radius: 0px 10px 10px 0px;
+    padding: 12px;
+    font-weight: bold;
+}
+
+/* Fin searchbar */
