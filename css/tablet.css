@@ -1,0 +1,30 @@
+/* Feuille de style générale pour le support : tablet */
+
+header
+{
+    padding: 2%;
+}
+
+/* Répartition des éléments de la flexbox d'entête */
+/* logo = 25% ; liens = 50% ; inscription = 25% */
+.logo
+{
+    flex: 25 1 auto;
+}
+
+.liens
+{
+    flex: 50 1 auto;
+}
+
+.inscription
+{
+    flex: 25 1 auto;
+}
+
+/* Ajout d'une bodure en haut et en bas pour les liens */
+a.lien:hover
+{
+    border-top: 2px solid #0065FC;
+    border-bottom: 2px solid #0065FC;
+}

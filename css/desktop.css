@@ -1,0 +1,24 @@
+/* Feuille de style générale pour le support : desktop */
+
+/* Répartition des éléments de la flexbox d'entête */
+/* logo = 70% ; liens = 20% ; inscription = 10% */
+.logo
+{
+    flex: 70 auto;
+}
+
+.liens
+{
+    flex: 20 auto;
+}
+
+.inscription
+{
+    flex: 10 auto;
+}
+
+/* Ajout d'une bodure en haut pour les liens */
+a.lien:hover
+{
+    border-top: 2px solid #0065FC;
+}

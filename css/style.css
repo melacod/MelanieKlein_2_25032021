@@ -1,0 +1,68 @@
+/* Feuille de style générale : commune à tous les supports */
+
+/* Utilisation de la font Raleway */
+@import url(//fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap);
+
+body
+{
+    font-family: 'Raleway';
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Flexbox pour l'entête */
+header
+{
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: space-between;
+   align-items: center;
+}
+
+/* Style pour l'image du logo */
+.logo img {
+    padding-left: 5px;
+}
+
+/* Flexbox pour les liens */
+.liens
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Style des liens */
+.lien {
+    text-align:center;
+    color: black;
+    line-height: 60px;
+    width: 50%;
+}
+
+/* Style pour le lien d'inscription */
+.inscription
+{
+    text-align: center;
+    color: #0065FC;
+    line-height: 62px;
+}
+
+/* Style des liens quand on les survole avec la souris */
+a.lien:hover
+{
+    color: #0065FC;
+}
+
+/* Style des titres */
+h1
+{
+    font-weight: 900;
+    font-size: 1.1em;
+}
+
+h2
+{
+    font-weight: 400;
+    font-size: 1em;
+}

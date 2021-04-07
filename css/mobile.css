@@ -1,0 +1,28 @@
+/* Feuille de style générale pour le support : mobile */
+
+/* Modification de l'ordre des éléments de la flexbox d'entête */
+/* logo = 1 = 70% ; liens = 3 = 100% ; inscription = 2 = 30% */
+.logo
+{
+    order: 1;
+    width: 70%;
+}
+
+.liens
+{
+    order: 3;
+    width: 100%;
+}
+
+.inscription
+{
+    order: 2;
+    width: 30%;
+    
+}
+
+/* Ajout d'une bodure en bas pour les liens */
+a.lien:hover
+{
+    border-bottom: 2px solid #0065FC;
+}
