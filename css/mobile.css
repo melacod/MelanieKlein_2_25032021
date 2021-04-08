@@ -1,5 +1,9 @@
 /* Feuille de style générale pour le support : mobile */
 
+/* --------------------------------------------------------------------------------------- */
+/* header */
+/* --------------------------------------------------------------------------------------- */
+
 /* Modification de l'ordre des éléments de la flexbox d'entête */
 /* logo = 1 = 70% ; liens = 3 = 100% ; inscription = 2 = 30% */
 
@@ -29,7 +33,9 @@ a.lien:hover
     border-bottom: 2px solid #0065FC;
 }
 
-/* Style des différents éléments composants la searchbar */
+/* --------------------------------------------------------------------------------------- */
+/* searchbar */
+/* --------------------------------------------------------------------------------------- */
 
 .search_icon_right
 {
@@ -42,13 +48,35 @@ a.lien:hover
     padding: 12px;
 }
 
-/* Fin Style searchbar */
-
-/* Style des différents éléments composants la searchbar */
+/* --------------------------------------------------------------------------------------- */
+/* filterbar */
+/* --------------------------------------------------------------------------------------- */
 
 .filters > p
 {
     width: 100%;
 }
 
-/* Fin filterbar */
+/* --------------------------------------------------------------------------------------- */
+/* hebergements */
+/* --------------------------------------------------------------------------------------- */
+
+.populaires, .hebergement, .hebergements_marseille
+{
+    width: 100%;
+}
+
+.populaires
+{
+    order: 1;
+}
+
+.hebergements_marseille
+{
+    order: 2;
+}
+
+.hebergement
+{
+    box-shadow: 1px 1px 10px  #DEEBFF;
+}

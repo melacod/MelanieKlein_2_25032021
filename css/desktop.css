@@ -1,5 +1,9 @@
 /* Feuille de style générale pour le support : desktop */
 
+/* --------------------------------------------------------------------------------------- */
+/* header */
+/* --------------------------------------------------------------------------------------- */
+
 /* Répartition des éléments de la flexbox d'entête */
 /* logo = 70% ; liens = 20% ; inscription = 10% */
 
@@ -25,7 +29,9 @@ a.lien:hover
     border-top: 2px solid #0065FC;
 }
 
-/* Style des différents éléments composants la searchbar */
+/* --------------------------------------------------------------------------------------- */
+/* searchbar */
+/* --------------------------------------------------------------------------------------- */
 
 .search_button
 {
@@ -38,4 +44,21 @@ a.lien:hover
     font-weight: bold;
 }
 
-/* Fin searchbar */
+/* --------------------------------------------------------------------------------------- */
+/* hebergements */
+/* --------------------------------------------------------------------------------------- */
+
+.hebergements_marseille
+{
+    margin-right: 25px;
+}
+.populaires
+{
+    border-radius: 25px;
+}
+
+.hebergements_marseille
+{
+    background-color: #F2F2F2;
+    border-radius: 30px;
+}
