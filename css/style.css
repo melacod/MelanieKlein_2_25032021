@@ -226,11 +226,13 @@ h2
 .hebergements
 {
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: flex-start;
-    align-items: stretch;   
+    align-items: stretch;
+    height: 790px;   
 }
 
-/* bbbb */
 .hebergements_marseille
 {
     display: flex;
@@ -245,10 +247,15 @@ h2
     padding: 12px;
     width: 80%;
 }
+.hebergements_marseille > div
+{
+    max-height: 40%;
+}
 .hebergements_marseille > h1
 {
     width: 100%;
     padding-left: 2%;
+    text-align: left;
     font-weight: 800;
     font-size: larger;
 }
@@ -257,11 +264,15 @@ h2
     width: 100%;
     padding-left: 2%;
 }
+.hebergements_marseille > h3
+{
+    margin-bottom: -20px;
+}
 .hebergement
 {
     display: flex;
     flex-direction: column;
-    
+    text-align: left ;
     background-color: white;
     border-radius: 25px;
     margin: 20px;
@@ -269,25 +280,19 @@ h2
     width: 29%;
     height: auto;
 }
-
 .hebergement > img
 {
  
     display: block;
     width: 100%;
-    height: 200px;
-    margin: auto;
-    border-radius: 25px 25px 0px 0px;   
+    height: 190px;
+    border-radius: 25px 25px 0px 0px; 
+    object-fit: cover;  
 }
 
 .hebergements_marseille > h2
 {
     font-weight: 800;
-}
-
-.hebergement > .stars 
-{
-    margin-bottom: 5px;
 }
 .populaires
 {
@@ -310,13 +315,11 @@ h2
     margin-left: 5%;
     width: 85%;
 }
-
 .presentation_populaire > h1
 {
     font-weight: 800;
     font-size: larger;
 }
-
 .populaire
 {
     display: flex;
@@ -325,7 +328,6 @@ h2
     border-radius: 25px;
     margin: 5px;
     width: 86%;
-
 }
 .populaire > img
 {
@@ -333,33 +335,30 @@ h2
     border-radius: 25px 0px 0px 25px;
     height: 190px;
     width: 90%;
-    margin: 5px;       
+    margin: 5px;     
+    object-fit: cover;   
 }  
-
 .populaire > div
 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: start;
-    align-items: flex-start;
+    text-align: left ;
     width: 100%;
 }
-
 .populaire > div > h3
 {
     width: 100%;
     align-content: flex-start;
     padding-left: 7%;
 }
-
 .populaire > div > span.price
 {
     align-content: flex-start;
     width: 100%;
     padding-left: 7%;
 }
-
 .populaire > div > span.stars
 {
     margin-left: 20px;
@@ -377,15 +376,12 @@ h2
 {
     padding-left: 7%;
 }
-
 span > .active
 {
     color: #0065FC;
 }
-
 span > .inactive
 {
     color: #DEEBFF;
 }
-
 /* Fin hebergements */
