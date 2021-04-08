@@ -13,13 +13,14 @@
 
     <!-- Une feuille de style général et une feuille par support: desktop / tablet / mobile -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/desktop.css" media="screen and (min-width: 1024px)"  />
-    <link rel="stylesheet" type="text/css" href="css/tablet.css"  media="screen and (max-width: 1023px) and (min-width: 480px)" />
+    <link rel="stylesheet" type="text/css" href="css/desktop.css" media="screen and (min-width: 1025px)"  />
+    <link rel="stylesheet" type="text/css" href="css/tablet.css"  media="screen and (max-width: 1024px) and (min-width: 480px)" />
     <link rel="stylesheet" type="text/css" href="css/mobile.css"  media="screen and (max-width: 479px)"  />
 
 </head>
 <body>
-    <!-- Start Header -->
+
+    <!-- header -->
     <header>
 
         <div class="logo">
@@ -38,73 +39,53 @@
     <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
     <h2>En plein centre ville ou en pleine nature</h2>
 
-    <!-- start searchbar -->
+    <!-- searchbar -->
     <div class="search_flexbox">
-        
         <i class="fas fa-map-marker-alt search_icon_left"></i>
         
-        <!-- Type "search" ou lieu de "text" pour pouvoir supprimer le contenu -->
         <input class="search_input" type="search" value="Marseille, France">
         
         <button class="search_button">Rechercher</button>
         <button class="search_button_tablet">Go</button>
         <i class="fas fa-search search_icon_right"></i>
-
     </div>
-    <!-- end searchbar -->
 
-    <!-- start filterbar -->
-
+    <!-- filterbar -->
     <div class="filters">
-
         <p>Filtres</p>
 
         <label class="filter">
-
             <input type="checkbox">
             <i class="fas fa-money-bill-wave"></i>
-
             <span>Economique</span>
-
         </label>
 
         <label class="filter">
-
             <input type="checkbox">
             <i class="fas fa-child filter_icone_fam"></i>
             <span>Familial</span>
-
         </label>
 
         <label class="filter">
-            
             <input type="checkbox">
             <i class="fas fa-heart filter_icone_rom"></i>
             <span>Romantique</span>
-        
         </label>
 
         <label class="filter">
-            
             <input type="checkbox">
             <i class="fas fa-dog filter_icone_ani"></i>
             <span>Animaux autorisés</span>
-        
         </label>
 
     </div>
 
     <div class="info">
-
         <i class="fas fa-info fa-xs"></i>
         <span class="information_text">Plus de 500 logements sont disponibles dans cette ville</span>
-        
     </div>
 
-    <!-- end filter bar -->
-
-    <!-- Start hebergements -->
-
+    <!-- hebergements -->
     <div class="hebergements" id="section_hebergements">
         <div class="hebergements_marseille"><h1>Hébergements à Marseille</h1>
             <div class="hebergement">
@@ -230,8 +211,6 @@
             </div>
         </div>
     </div>
-
-<!-- Fin hebergements -->
 
 </body>
 </html>
