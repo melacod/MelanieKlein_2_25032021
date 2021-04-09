@@ -238,6 +238,7 @@ h2
     flex-wrap: wrap;
     padding: 2%;
     width: 70%;
+
 }
 
 .hebergements_exemple > h1
@@ -304,6 +305,7 @@ h2
 {
     font-weight: 800;
     font-size: larger;
+    padding-top: 20px;
 }
 
 .populaire
@@ -415,7 +417,7 @@ i.inactive
     width: 100%;
     
     border-radius: 25px;
-    box-shadow: 1px 1px 10px grey;
+    box-shadow: 1px 1px 10px rgb(206, 204, 204);
 }
 
 .activite > img
