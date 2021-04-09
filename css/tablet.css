@@ -90,3 +90,27 @@ a.lien:hover
 /* --------------------------------------------------------------------------------------- */
 /* activites */
 /* --------------------------------------------------------------------------------------- */
+
+.activites {
+    justify-content: space-around;
+}
+
+.activite_seule, .activite_double
+{
+    display: contents;
+}
+
+.activite
+{
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.activite > img
+{
+    height: 200px;
+}
+
+.activite > h3 {
+    font-size: 0.95em;
+}

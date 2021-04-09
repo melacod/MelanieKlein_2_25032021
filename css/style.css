@@ -405,48 +405,6 @@ i.inactive
     width: 100%;
 }
 
-.activites > div
-{
-    width: 23%;
-}
-
-/* Style pour une activité seule */
-
-.activite_seule 
-{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: stretch;
-}
-
-/* Style pour des activités double */
-
-.activite_double 
-{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    height: inherit;
-}
-
-.activite_double > div 
-{
-    width: 100%;
-    max-height: 45%;
-}
-
-.activite_double > div.large 
-{
-    max-height: 55%;
-}
-
-.activite_double > div.small
-{
-    max-height: 35%;
-}
-
 /* Style d'une carte activité */
 
 .activite
@@ -457,7 +415,7 @@ i.inactive
     align-items: center;
 
     border-radius: 25px;
-    box-shadow: 1px 1px 25px grey;
+    box-shadow: 1px 1px 10px grey;
 }
 
 .activite > img

@@ -62,3 +62,45 @@ a.lien:hover
 /* --------------------------------------------------------------------------------------- */
 /* activites */
 /* --------------------------------------------------------------------------------------- */
+
+.activites > div
+{
+    width: 23%;
+}
+
+/* Style pour une activité seule */
+
+.activite_seule 
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: stretch;
+}
+
+/* Style pour des activités double */
+
+.activite_double 
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: inherit;
+}
+
+.activite_double > div 
+{
+    width: 100%;
+    max-height: 45%;
+}
+
+.activite_double > div.large 
+{
+    max-height: 55%;
+}
+
+.activite_double > div.small
+{
+    max-height: 35%;
+}

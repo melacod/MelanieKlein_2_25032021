@@ -86,3 +86,18 @@ a.lien:hover
 /* activites */
 /* --------------------------------------------------------------------------------------- */
 
+.activite_seule, .activite_double
+{
+    display: contents;
+}
+
+.activite
+{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.activite > img
+{
+    height: 200px;
+}
