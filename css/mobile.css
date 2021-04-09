@@ -86,6 +86,10 @@ a.lien:hover
 /* activites */
 /* --------------------------------------------------------------------------------------- */
 
+.activites {
+    height: 1500px;
+}
+
 .activite_seule, .activite_double
 {
     display: contents;
@@ -94,10 +98,14 @@ a.lien:hover
 .activite
 {
     width: 100%;
-    margin-bottom: 20px;
+    height: 15%;
 }
 
-.activite > img
+/* --------------------------------------------------------------------------------------- */
+/* footer */
+/* --------------------------------------------------------------------------------------- */
+
+.footer_flexbox > div
 {
-    height: 200px;
+    width: 100%;
 }

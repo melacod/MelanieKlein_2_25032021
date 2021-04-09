@@ -66,6 +66,7 @@ a.lien:hover
 .activites > div
 {
     width: 23%;
+    height: 85%;
 }
 
 /* Style pour une activité seule */
@@ -86,21 +87,29 @@ a.lien:hover
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
-    height: inherit;
 }
 
 .activite_double > div 
 {
     width: 100%;
-    max-height: 45%;
+    height: 45%;
 }
 
 .activite_double > div.large 
 {
-    max-height: 55%;
+    height: 55%;
 }
 
 .activite_double > div.small
 {
-    max-height: 35%;
+    height: 35%;
+}
+
+/* --------------------------------------------------------------------------------------- */
+/* footer */
+/* --------------------------------------------------------------------------------------- */
+
+.footer_flexbox > div
+{
+    width: 30%;
 }

@@ -103,14 +103,26 @@ a.lien:hover
 .activite
 {
     width: 45%;
-    margin-bottom: 20px;
-}
-
-.activite > img
-{
-    height: 200px;
+    height: 25%;
+    padding-bottom: 20px;
 }
 
 .activite > h3 {
     font-size: 0.95em;
+    max-height: 2%;
+}
+
+/* --------------------------------------------------------------------------------------- */
+/* footer */
+/* --------------------------------------------------------------------------------------- */
+
+.footer_flexbox 
+{
+    justify-content: space-between;
+}
+
+.footer_flexbox > div
+{
+    width: 45%;
+    padding-bottom: 20px;
 }
