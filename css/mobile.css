@@ -61,7 +61,7 @@ a.lien:hover
 /* hebergements */
 /* --------------------------------------------------------------------------------------- */
 
-.populaires, .hebergement, .hebergements_marseille
+.populaires, .hebergement, .hebergements_exemple
 {
     width: 100%;
 }
@@ -71,7 +71,7 @@ a.lien:hover
     order: 1;
 }
 
-.hebergements_marseille
+.hebergements_exemple
 {
     order: 2;
 }

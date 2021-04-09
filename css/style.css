@@ -229,7 +229,7 @@ h2
     margin: 1%;
 }
 
-.hebergements_marseille
+.hebergements_exemple
 {
     display: flex;
     flex-direction: row;
@@ -240,7 +240,7 @@ h2
     width: 70%;
 }
 
-.hebergements_marseille > h1
+.hebergements_exemple > h1
 {
     width: 100%;
     padding-left: 1%;
@@ -249,7 +249,7 @@ h2
     font-size: larger;
 }
 
-.hebergements_marseille > h2
+.hebergements_exemple > h2
 {
     width: 100%;
     padding-left: 1%;
