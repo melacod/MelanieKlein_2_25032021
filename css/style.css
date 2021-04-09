@@ -399,3 +399,95 @@ i.inactive
 {
     color: #DEEBFF;
 }
+
+/* --------------------------------------------------------------------------------------- */
+/* activites */
+/* --------------------------------------------------------------------------------------- */
+
+/* Style du conteneur activités */
+
+.activites 
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+    height: 700px;
+    
+}
+
+.activites > h1
+{
+    width: 100%;
+}
+
+.activites > div
+{
+    width: 23%;
+}
+
+/* Style pour une activité seule */
+
+.activite_seule 
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: stretch;
+}
+
+/* Style pour des activités double */
+
+.activite_double 
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: inherit;
+}
+
+.activite_double > div 
+{
+    width: 100%;
+    max-height: 45%;
+}
+
+.activite_double > div.large 
+{
+    max-height: 55%;
+}
+
+.activite_double > div.small
+{
+    max-height: 35%;
+}
+
+/* Style d'une carte activité */
+
+.activite
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+
+    border-radius: 25px;
+    box-shadow: 1px 1px 25px grey;
+}
+
+.activite > img
+{
+    border-radius: 25px 25px 0 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.activite > h3
+{
+    text-align: left;
+    width: 100%;
+    padding-left: 50px;
+}
