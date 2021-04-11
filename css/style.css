@@ -44,6 +44,7 @@ header
     color: black;
     line-height: 60px;
     width: 50%;
+    font-size: 1.3em;
     text-decoration: none;
 }
 
@@ -53,6 +54,7 @@ header
     text-align: center;
     font-weight: 700;
     color: #0065FC;
+    font-size: 1.3em;
     line-height: 62px;
 }
 
