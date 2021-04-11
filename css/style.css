@@ -241,7 +241,6 @@ h2
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: stretch;
-    padding-left: 53px;
 }
 
 .hebergements_exemple
@@ -400,6 +399,7 @@ h2
 {
     padding-left: 6%;
     margin-bottom: 2%;
+    font-size: 1.3em;
 }
 
 strong
@@ -440,13 +440,16 @@ i.inactive
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 20px;
-    height: 600px;
+    height: 700px;
+    margin-top: 3%;
 }
 
 .activites > h1
 {
     width: 100%;
-    margin: 0;
+    font-weight: 700;
+    font-size: 1.8em;
+    padding-left: 4%;
 }
 
 /* Style d'une carte activité */
@@ -475,10 +478,13 @@ i.inactive
 .activite > h3
 {
     text-align: left;
-    max-height: 10%;
+    max-height: 15%;
     width: 100%;
     padding-left: 50px;
-    
+    padding-left: 5%;
+    padding-bottom: 15px;
+    font-size: 1.6em;
+    font-weight: 800;
 }
 
 /* --------------------------------------------------------------------------------------- */
