@@ -28,7 +28,7 @@ header
 
 /* Style pour l'image du logo */
 .logo img {
-    padding-left: 53px;
+    padding-left: 4%;
 }
 
 /* Flexbox pour les liens */
@@ -45,7 +45,7 @@ header
     color: black;
     line-height: 60px;
     width: 50%;
-    font-size: 1.3em;
+    font-size: 1.45em;
     text-decoration: none;
 }
 
@@ -53,9 +53,9 @@ header
 .inscription
 {
     text-align: center;
-    font-weight: 700;
+    font-weight: 650;
     color: #0065FC;
-    font-size: 1.3em;
+    font-size: 1.45em;
     line-height: 62px;
 }
 
@@ -71,14 +71,14 @@ h1
 {
     font-weight: 700;
     font-size: 1.8em;
-    padding-left: 53px;
+    padding-left: 2.5%
 }
 
 h2
 {
     font-weight: 400;
-    padding-left: 53px;
-    font-size: 1.3em;;
+    padding-left: 2.5%;
+    font-size: 1.6em;;
 }
 
 /* --------------------------------------------------------------------------------------- */
@@ -89,7 +89,7 @@ h2
 {
     display: flex;
     align-items: stretch;
-    padding-left: 53px;
+    padding-left: 2.5%;
     padding-top: 1rem;
 }
 
@@ -108,9 +108,8 @@ h2
     padding: 10px;
     font-weight: bold;
     padding: 12px;
-    font-size: 1em;
-    font-family: 'Raleway';
-    font-weight: 700;
+    font-size: 1.4em;
+    font-weight: 600;
 }
 
 .search_button
@@ -138,7 +137,7 @@ h2
     align-items: center;
     justify-content: start;
     flex-wrap: wrap;
-    padding-left: 53px;
+    padding-left: 2.5%;
     margin-top: 15px;
     line-height: normal;
 }
@@ -146,6 +145,7 @@ h2
 .filters > p
 {
     font-weight:700;
+    font-size: 1.6em;
 }
 
 .filter
@@ -153,7 +153,10 @@ h2
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10px;
+    margin: 15px;
+    font-size: 1.4em;
+    font-weight: 900;
+
 }
 
 .filter > input {
@@ -187,18 +190,18 @@ h2
 .filter > span {
     z-index: 1;
     color: black;
-    font-weight: 200;
+    font-weight: 600;
     padding: 12px;
     border-radius: 25px;
     padding-left: 48px;
 }
 
 .filter > input:checked ~ span {
-    border: #F2F2F2 solid 2px;
+    border: #D9D9D9 solid 2.5px;
 }
 
 .filter > input:not(:checked) ~ span {
-    border: #DEEBFF solid 2px;
+    border: #D9D9D9 solid 2.5px;
 }
 
 /* Style pour le texte lorsqu'on survole le filtre */
@@ -226,8 +229,9 @@ h2
 .info 
 {
     padding-top: 15px;
-    padding-left: 53px;
+    padding-left: 2.5%;
     padding-bottom: 30px;
+    font-size: 1.5em;
 }
 
 /* --------------------------------------------------------------------------------------- */
@@ -510,6 +514,7 @@ i.inactive
 {
     padding-left: 10px;
     line-height: 1.7em;
+    font-size: 1.65em;
 }
 
 .footer_flexbox > div > div

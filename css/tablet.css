@@ -14,17 +14,20 @@ header
 
 .logo
 {
-    flex: 25 1 auto;
+   width: 70%;
+   order: 1;
 }
 
 .liens
 {
-    flex: 50 1 auto;
+    width: 100%;
+    order: 3;
 }
 
 .inscription
 {
-    flex: 25 1 auto;
+    width: 30%;
+    order: 2;
 }
 
 /* Ajout d'une bodure en haut et en bas pour les liens */
