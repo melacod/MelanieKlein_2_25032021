@@ -8,7 +8,7 @@ body
     font-family: 'Raleway';
     font-weight: normal;
     font-style: normal;
-    line-height: 1.8rem;
+    line-height: 2.5em;
     width: 95%;
 }
 
@@ -67,8 +67,7 @@ a.lien:hover
 h1
 {
     font-weight: 700;
-    font-size: 1.4em;
-    padding-top: 1.4rem;
+    font-size: 1.8em;
     padding-left: 53px;
 }
 
@@ -76,6 +75,7 @@ h2
 {
     font-weight: 400;
     padding-left: 53px;
+    font-size: 1.3em;;
 }
 
 /* --------------------------------------------------------------------------------------- */
@@ -259,17 +259,20 @@ h2
     width: 100%;
     padding-top: 45px;
     padding-bottom: 0px;
-    padding-left: 30px;
+    padding-left: 20px;
     text-align: left;
     font-weight: 700;
-    font-size: 1.4em;
+    font-size: 1.8em;
 }
 
 .hebergements_exemple > h2
 {
     width: 100%;
-    padding-left: 1%;
-    font-weight: 800;
+    padding-left: 30px;
+    padding-bottom: 53px;
+    text-align: left;
+    font-weight: 700;
+    font-size: 1.5em;
 }
 
 .hebergement
@@ -319,10 +322,10 @@ h2
 {
     padding-top: 32px;
     padding-bottom: 32px;
-    padding-left: 46px;
+    padding-left: 45px;
     padding-right: 53px;
     font-weight: 700;
-    font-size: 1.4em;
+    font-size: 1.8em;
 }
 
 .populaire
