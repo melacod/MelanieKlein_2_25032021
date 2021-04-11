@@ -238,28 +238,31 @@ h2
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: stretch;
-    margin: 1%;
+    padding-left: 53px;
 }
 
 .hebergements_exemple
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-content: space-between;
     flex-wrap: wrap;
-    padding: 2%;
-    width: 70%;
+    width: 65%;
+    padding-left: 45px;
+    padding-right: 45px;
 
 }
 
 .hebergements_exemple > h1
 {
     width: 100%;
-    padding-left: 1%;
+    padding-top: 45px;
+    padding-bottom: 0px;
+    padding-left: 30px;
     text-align: left;
-    font-weight: 800;
-    font-size: larger;
+    font-weight: 700;
+    font-size: 1.4em;
 }
 
 .hebergements_exemple > h2
