@@ -14,7 +14,7 @@ header
 
 .logo
 {
-   width: 70%;
+   width: 60%;
    order: 1;
 }
 
@@ -51,7 +51,7 @@ a.lien:hover
     border-radius: 0px 10px 10px 0px;
     padding: 12px;
     font-weight: bold;
-    font-size: 0.9em;
+    font-size: 1.1rem;
 }
 
 /* --------------------------------------------------------------------------------------- */

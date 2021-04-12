@@ -355,7 +355,6 @@ h2
     margin: 2%;
     width: 79%;
     box-shadow: 1px 1px 10px rgb(206, 204, 204);
-
 }
 
 .populaire > img
@@ -464,8 +463,8 @@ i.inactive
 {
     width: 100%;
     font-weight: 700;
-    font-size: 1.8em;
-    padding-left: 4%;
+    font-size: 1.8rem;
+    padding-left: 2%;
 }
 
 /* Style d'une carte activité */
@@ -496,11 +495,11 @@ i.inactive
     text-align: left;
     max-height: 15%;
     width: 100%;
-    padding-left: 50px;
-    padding-left: 5%;
-    padding-bottom: 15px;
-    font-size: 1.6em;
-    font-weight: 800;
+    padding-top: 4%;
+    padding-left: 10%;
+    padding-bottom: 4%;
+    font-size: 1.6rem;
+    font-weight: 700;
 }
 
 /* --------------------------------------------------------------------------------------- */
@@ -524,15 +523,16 @@ i.inactive
 
 .footer_flexbox > div
 {
-    padding-left: 10px;
-    line-height: 1.7em;
-    font-size: 1.65em;
+    padding-left: 3%;
+    line-height: 1.8rem;
+    font-size: 1.4rem;
+    font-weight: 400;
 }
 
 .footer_flexbox > div > div
 {
     font-weight: bold;
-    padding-bottom: 0.7em;
+    padding-bottom: 0.7rem;
 }
 
 .footer_link > a {
