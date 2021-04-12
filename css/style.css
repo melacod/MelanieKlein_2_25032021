@@ -8,8 +8,11 @@ body
     font-family: 'Raleway';
     font-weight: normal;
     font-style: normal;
-    line-height: 2.5em;
-    width: 95%;
+    line-height: 2.5rem;
+    width: 100%;
+
+    /* Masquer le scroll horizontal */
+    overflow-x: hidden;
 }
 
 /* --------------------------------------------------------------------------------------- */
@@ -23,12 +26,13 @@ header
    flex-flow: row wrap;
    justify-content: space-between;
    align-items: center;
-   padding-top: 2%;
+   padding-top: 0.1%;
 }
 
 /* Style pour l'image du logo */
 .logo img {
-    padding-left: 4%;
+    padding-left: 7%;
+    height: 3.5rem;
 }
 
 /* Flexbox pour les liens */
@@ -45,7 +49,7 @@ header
     color: black;
     line-height: 60px;
     width: 50%;
-    font-size: 1.45em;
+    font-size: 1.45rem;
     text-decoration: none;
 }
 
@@ -55,8 +59,9 @@ header
     text-align: center;
     font-weight: 650;
     color: #0065FC;
-    font-size: 1.45em;
+    font-size: 1.45rem;
     line-height: 62px;
+    padding-right: 4.2%;
 }
 
 /* Style des liens quand on les survole avec la souris */
@@ -70,15 +75,15 @@ a.lien:hover
 h1
 {
     font-weight: 700;
-    font-size: 1.8em;
-    padding-left: 2.5%
+    font-size: 1.8rem;
+    padding-left: 4.2%
 }
 
 h2
 {
     font-weight: 400;
-    padding-left: 2.5%;
-    font-size: 1.6em;;
+    padding-left: 4.2%;
+    font-size: 1.6rem;;
 }
 
 /* --------------------------------------------------------------------------------------- */
@@ -89,7 +94,7 @@ h2
 {
     display: flex;
     align-items: stretch;
-    padding-left: 2.5%;
+    padding-left: 4.2%;
     padding-top: 1rem;
 }
 
@@ -137,7 +142,7 @@ h2
     align-items: center;
     justify-content: start;
     flex-wrap: wrap;
-    padding-left: 2.5%;
+    padding-left: 4.2%;
     margin-top: 15px;
     line-height: normal;
 }
@@ -145,7 +150,7 @@ h2
 .filters > p
 {
     font-weight:700;
-    font-size: 1.6em;
+    font-size: 1.6rem;
 }
 
 .filter
@@ -154,7 +159,7 @@ h2
     align-items: center;
     justify-content: center;
     margin: 15px;
-    font-size: 1.4em;
+    font-size: 1.4rem;
     font-weight: 900;
 
 }
@@ -221,17 +226,17 @@ h2
     border: #DEEBFF solid 1px;
     padding-left: 6px;
     padding-right: 6px;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding-top: 3px;
+    padding-bottom: 3px;
     border-radius: 100%;
 }
 
 .info 
 {
     padding-top: 15px;
-    padding-left: 2.5%;
+    padding-left: 4.2%;
     padding-bottom: 30px;
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 /* --------------------------------------------------------------------------------------- */
@@ -255,30 +260,29 @@ h2
     align-content: space-between;
     flex-wrap: wrap;
     width: 58%;
-    padding-left: 45px;
-    padding-right: 45px;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
 
 }
 
 .hebergements_exemple > h1
 {
     width: 100%;
-    padding-top: 45px;
+    padding-top: 2.5%;
     padding-bottom: 0px;
-    padding-left: 20px;
+    padding-left: 2.5%;
     text-align: left;
     font-weight: 700;
-    font-size: 1.8em;
+    font-size: 1.8rem;
 }
 
 .hebergements_exemple > h2
 {
     width: 100%;
-    padding-left: 30px;
-    padding-bottom: 53px;
+    padding-left: 1%;
     text-align: left;
     font-weight: 700;
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 .hebergement
@@ -372,8 +376,9 @@ h2
 {
     width: 100%;
     align-content: flex-start;
+    padding-top: 5%;
     padding-left: 6%;
-    font-size: 1.4em;
+    font-size: 1.4rem;
     font-weight: 700;
 }
 
@@ -383,7 +388,7 @@ h2
     width: 100%;
     padding-left: 6%;
     padding-left: 6%;
-    font-size: 1.3em;
+    font-size: 1.3rem;
     font-weight: 500;
 }
 
@@ -394,8 +399,9 @@ h2
 
 .hebergement > h3
 {
+    padding-top: 4.5%;
     padding-left: 6%;
-    font-size: 1.4em;
+    font-size: 1.4rem;
     font-weight: 700;
 }
 
@@ -403,19 +409,19 @@ h2
 {
     padding-left: 6%;
     margin-bottom: 2%;
-    font-size: 1.3em;
+    font-size: 1.3rem;
 }
 
 strong
 {
     font-weight: 750;
-    font-size: 1.25em;
+    font-size: 1.25rem;
 }
 
 .hebergement > span
 {
     padding-left: 6%;
-    font-size: 1em;
+    font-size: 1rem;
     font-weight: 500;
     padding-bottom: 1.5%;
 }
