@@ -113,13 +113,15 @@ h2
     padding: 10px;
     font-weight: bold;
     padding: 12px;
-    font-size: 1.4em;
+    font-size: 1.4rem;
     font-weight: 600;
 }
 
 .search_button
 {
    display:none;
+   font-size: 1.2rem;
+   font-family: 'raleway'
 }
 
 .search_icon_right
@@ -518,7 +520,6 @@ i.inactive
     /* flex-flow: row wrap; = flex-direction = row; + flex-wrap = wrap; */
     justify-content:center;
     align-items: flex-start;
-    width: 97.5%;
 }
 
 .footer_flexbox > div

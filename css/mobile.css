@@ -10,20 +10,35 @@
 .logo
 {
     order: 1;
-    width: 70%;
+    width: 40%;
 }
 
 .liens
 {
     order: 3;
     width: 100%;
+    padding-bottom: 5%;
+    font-size: 1.2rem;
 }
 
 .inscription
 {
     order: 2;
-    width: 30%;
+    width: 40%;
+    font-size: 1.2rem;
     
+}
+
+h1
+{
+    font-size: 1.8rem;
+    width: 100%;
+}
+
+h2
+{
+    font-size: 1.2rem;
+    width: 100%;
 }
 
 /* Ajout d'une bodure en bas pour les liens */
@@ -54,7 +69,7 @@ a.lien:hover
 
 .filters > p
 {
-    width: 100%;
+    width: 90%;
 }
 
 /* --------------------------------------------------------------------------------------- */
@@ -86,7 +101,8 @@ a.lien:hover
 /* activites */
 /* --------------------------------------------------------------------------------------- */
 
-.activites {
+.activites 
+{
     height: 1500px;
 }
 
@@ -104,8 +120,3 @@ a.lien:hover
 /* --------------------------------------------------------------------------------------- */
 /* footer */
 /* --------------------------------------------------------------------------------------- */
-
-.footer_flexbox > div
-{
-    width: 100%;
-}
