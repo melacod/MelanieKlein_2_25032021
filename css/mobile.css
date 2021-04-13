@@ -31,14 +31,14 @@
 
 h1
 {
-    font-size: 1.8rem;
-    width: 100%;
+    font-size: 1.5rem;
+    width: 90%;
 }
 
 h2
 {
     font-size: 1.2rem;
-    width: 100%;
+    width: 90%;
 }
 
 /* Ajout d'une bodure en bas pour les liens */
@@ -70,6 +70,12 @@ a.lien:hover
 .filters > p
 {
     width: 90%;
+}
+
+.info
+{
+    padding: 3%;
+    font-size: 1.2rem;
 }
 
 /* --------------------------------------------------------------------------------------- */
@@ -120,3 +126,15 @@ a.lien:hover
 /* --------------------------------------------------------------------------------------- */
 /* footer */
 /* --------------------------------------------------------------------------------------- */
+.footer_flexbox
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.footer_flexbox > div
+{
+    padding-bottom: 10%;
+}
+
