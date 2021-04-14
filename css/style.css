@@ -354,6 +354,7 @@ strong
 }
 
 /* Style pour les hébergements populaires */
+
 .populaires
 {
     display: flex;
@@ -382,7 +383,7 @@ strong
     padding-right: 2%;
 }
 
-.populaire
+.populaire > a
 {
     display: flex;
     flex-direction: row;
@@ -392,7 +393,7 @@ strong
     box-shadow: 1px 1px 10px rgb(206, 204, 204);
 }
 
-.populaire > img
+.populaire > a > img
 {
     display: block;
     border-radius: 20px 0px 0px 20px;
@@ -403,7 +404,7 @@ strong
     object-fit: cover;   
 }  
 
-.populaire > div
+.populaire > a > div
 {
     display: flex;
     flex-direction: row;
@@ -413,7 +414,7 @@ strong
     width: 100%;
 }
 
-.populaire > div > h3
+.populaire > a > div > h3
 {
     width: 100%;
     padding-top: 5%;
@@ -422,7 +423,7 @@ strong
     font-weight: 700;
 }
 
-.populaire > div > span.price
+.populaire > a > div > span.price
 {
     align-content: flex-start;
     width: 100%;
@@ -431,7 +432,7 @@ strong
     font-weight: 500;
 }
 
-.populaire > div > span.stars
+.populaire > a > div > span.stars
 {
     padding-left: 6%;
 }
