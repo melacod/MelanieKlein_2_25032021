@@ -32,7 +32,13 @@ header
 
 /* Ajout d'une bodure en haut et en bas pour les liens */
 
-a.lien:hover
+.lien
+{
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.lien:hover
 {
     border-top: 2px solid #0065FC;
     border-bottom: 2px solid #0065FC;
@@ -60,7 +66,7 @@ a.lien:hover
 
 .filters > p
 {
-        width: 100%;
+    width: 100%;
 }
 
 /* --------------------------------------------------------------------------------------- */
@@ -75,12 +81,15 @@ a.lien:hover
 .populaires
 {
     order: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 350px;
 }
 
 .hebergements_exemple
 {
     order: 2;
-
 }
 
 .hebergement
@@ -90,12 +99,18 @@ a.lien:hover
     margin-bottom: 10px;
 }
 
+.populaire
+{
+    width: 45%;
+}
+
 /* --------------------------------------------------------------------------------------- */
 /* activites */
 /* --------------------------------------------------------------------------------------- */
 
 .activites {
     justify-content: space-around;
+    height: 600px;
 }
 
 .activite_seule, .activite_double
@@ -111,7 +126,6 @@ a.lien:hover
 }
 
 .activite > h3 {
-    font-size: 0.95em;
     max-height: 2%;
 }
 

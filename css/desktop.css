@@ -9,12 +9,12 @@
 
 .logo
 {
-    flex: 70 auto;
+    flex: 80 auto;
 }
 
 .liens
 {
-    flex: 20 auto;
+    flex: 10 auto;
 }
 
 .inscription
@@ -23,8 +23,12 @@
 }
 
 /* Ajout d'une bodure en haut pour les liens */
+.lien 
+{
+    border-top: 2px solid white;
+}
 
-a.lien:hover
+.lien:hover
 {
     border-top: 2px solid #0065FC;
 }
@@ -47,6 +51,10 @@ a.lien:hover
 /* --------------------------------------------------------------------------------------- */
 /* hebergements */
 /* --------------------------------------------------------------------------------------- */
+
+.hebergements {
+    height: 630px;
+}
 
 .populaires
 {
