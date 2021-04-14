@@ -92,10 +92,9 @@ header
     order: 2;
 }
 
-.hebergement
+.hebergements_exemple > div
 {
     width: 45%;
-    box-shadow: 1px 1px 10px  #DEEBFF;
     margin-bottom: 10px;
 }
 

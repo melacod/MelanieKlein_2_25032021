@@ -15,6 +15,11 @@ body
     line-height: 2.5rem;
 }
 
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
 input {
     font-family: 'Raleway';
 }
@@ -297,19 +302,22 @@ h2
     font-size: 1.5rem;
 }
 
-.hebergement
-{
-    display: flex;
-    flex-direction: column;
-    text-align: left ;
+.hebergements_exemple > div {
     background-color: white;
     border-radius: 25px;
     padding: 5px;
-    width: 29%;
-    box-shadow: 1px 1px 10px rgb(206, 204, 204);
+    box-shadow: 1px 1px 10px #DEEBFF;
 }
 
-.hebergement > img
+.hebergement > a {
+    display: flex;
+    flex-direction: column;
+    text-align: left ;
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.hebergement > a > img
 {
     display: block;
     width: 100%;
@@ -318,7 +326,7 @@ h2
     object-fit: cover;  
 }
 
-.hebergement > h3
+.hebergement > a > h3
 {
     padding-top: 10px;
     padding-left: 6%;
@@ -326,7 +334,7 @@ h2
     font-weight: 700;
 }
 
-.hebergement > .price
+.hebergement > a > .price
 {
     padding-left: 6%;
     font-size: 1.3rem;
@@ -338,7 +346,7 @@ strong
     font-size: 1.25rem;
 }
 
-.hebergement > span
+.hebergement > a > span
 {
     padding-left: 6%;
     font-size: 1rem;
