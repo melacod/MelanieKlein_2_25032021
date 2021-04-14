@@ -45,7 +45,10 @@ h2
     border-bottom: 2px solid white;
 }
 
-.lien:hover
+/* Liens ancres survolés ou actifs */
+.lien:hover,
+#section_hebergements:target ~ div.entete #ancre_hebergements,
+#section_activites:target ~ div.entete #ancre_activites
 {
     border-bottom: 2px solid #0065FC;
 }

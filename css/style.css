@@ -31,6 +31,31 @@ input {
 .contenu {
     padding-left: 3.4%;
     padding-right: 3.4%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    align-items: flex-start;
+}
+
+.contenu > div, .contenu > section 
+{
+    width: 100%;
+}
+
+.contenu > div.entete 
+{
+    order: 1;
+}
+
+.contenu > section.hebergements 
+{
+    order: 2;
+}
+
+.contenu > section.activites 
+{
+    order: 3;
 }
 
 /* --------------------------------------------------------------------------------------- */
@@ -80,8 +105,10 @@ header
     font-size: 1.7rem;
 }
 
-/* Style des liens quand on les survole avec la souris */
-.lien:hover
+/* Liens ancres survolés ou actifs */
+.lien:hover,
+#section_hebergements:target ~ div.entete #ancre_hebergements,
+#section_activites:target ~ div.entete #ancre_activites
 {
     color: #0065FC;
 }
