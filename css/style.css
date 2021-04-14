@@ -43,8 +43,9 @@ header
 }
 
 /* Style du logo */
-.logo {
-    height: 5rem;
+.logo > img
+{
+    vertical-align: middle;
 }
 
 /* Flexbox pour les liens */
@@ -61,7 +62,7 @@ header
     text-align:center;
     color: black;
     width: 50%;
-    font-size: 1.45rem;
+    font-size: 1.7rem;
     text-decoration: none;
 }
 
@@ -71,7 +72,7 @@ header
     text-align: center;
     font-weight: 650;
     color: #0065FC;
-    font-size: 1.45rem;
+    font-size: 1.7rem;
 }
 
 /* Style des liens quand on les survole avec la souris */
@@ -173,7 +174,7 @@ h2
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-right: 15px;
+    padding-right: 12px;
     font-size: 1.8rem;
     font-weight: 900;
     margin-bottom: 10px;
@@ -251,7 +252,7 @@ h2
 {
     padding-top: 15px;
     padding-bottom: 30px;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 /* --------------------------------------------------------------------------------------- */
@@ -283,7 +284,8 @@ h2
     width: 100%;
     text-align: left;
     font-weight: 700;
-    font-size: 1.8rem;
+    font-size: 1.9rem;
+    padding-left: 2rem;
     padding-bottom: 1rem;
 }
 
@@ -360,7 +362,7 @@ strong
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: stretch;
+    align-items: center;
     width: 100%;
 }
 

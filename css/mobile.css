@@ -18,26 +18,24 @@
     order: 3;
     width: 100%;
     padding-bottom: 5%;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .inscription
 {
     order: 2;
     width: 40%;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 h1
 {
-    font-size: 1.5rem;
-    width: 90%;
+    font-size: 1.8rem;
 }
 
 h2
 {
-    font-size: 1.2rem;
-    width: 90%;
+    font-size: 1.7rem;
 }
 
 /* Ajout d'une bodure en bas pour les liens */
@@ -82,13 +80,12 @@ h2
 .info
 {
     padding: 3%;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
 }
 
 /* --------------------------------------------------------------------------------------- */
 /* hebergements */
 /* --------------------------------------------------------------------------------------- */
-
 .populaires, .hebergement, .hebergements_exemple
 {
     width: 100%;
@@ -99,7 +96,6 @@ h2
     order: 1;
     height: 550px;
 }
-
 .hebergements_exemple
 {
     order: 2;
@@ -144,6 +140,7 @@ h2
     justify-content: space-around;
     align-items: flex-start;
 }
+
 .footer_flexbox > div
 {
     padding-bottom: 10%;
