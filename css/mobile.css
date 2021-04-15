@@ -57,18 +57,19 @@ h2
 /* searchbar */
 /* --------------------------------------------------------------------------------------- */
 
-.search_icon_right
+.search_button_mobile
 {
     display: block;
     color: white;
-    border-color: 2px #0065FC solid;
+    border: 2px #0065FC solid;
     border-radius: 15px;
     background-color: #0065FC;
-    margin-left: -10px; 
+    margin-left: -15px; 
     padding: 12px;
+    width: 5rem;
 }
 
-.search_icon_right > i {
+.search_button_mobile > i {
     vertical-align: middle;
 }
 

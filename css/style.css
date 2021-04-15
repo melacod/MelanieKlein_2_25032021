@@ -165,17 +165,16 @@ h2
 .search_button
 {
    display: none;
-   font-size: 1.8rem;
-}
-
-.search_icon_right
-{
-    display: none;
 }
 
 .search_button_tablet
 {
     display: none
+}
+
+.search_button_mobile
+{
+    display: none;
 }
 
 /* --------------------------------------------------------------------------------------- */
