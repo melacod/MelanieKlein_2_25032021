@@ -247,13 +247,6 @@ h2
     padding: 14px;
     border-radius: 25px;
     padding-left: 5rem;
-}
-
-.filter > input:checked ~ span {
-    border: #D9D9D9 solid 2px;
-}
-
-.filter > input:not(:checked) ~ span {
     border: #D9D9D9 solid 2px;
 }
 
