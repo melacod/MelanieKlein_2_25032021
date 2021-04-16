@@ -112,14 +112,32 @@
     height: 45%;
 }
 
+.activite_double > div > a > img
+{
+    height: 75%;
+    max-height: 75%;
+}
+
 .activite_double > div.large 
 {
     height: 55%;
 }
 
+.activite_double > div.large > a > img
+{
+    height: 80%;
+    max-height: 80%;
+}
+
 .activite_double > div.small
 {
     height: 35%;
+}
+
+.activite_double > div.small > a > img
+{
+    height: 70%;
+    max-height: 70%;
 }
 
 /* --------------------------------------------------------------------------------------- */
