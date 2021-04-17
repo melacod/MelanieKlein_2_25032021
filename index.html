@@ -26,10 +26,78 @@
     <!-- Contenu avec le même padding droite/gauche -->
     <div class="contenu">
 
-        <!-- hebergements -->
-        <section class="hebergements" id="section_hebergements">
+        <div class="entete">
+            <!-- header -->
+            <header>
+                <div class="logo">
+                    <img src="images/reservia.svg" alt="logo Reservia">
+                </div>
+                <nav class="liens">
+                    <a id="ancre_hebergements" class="lien" href="#section_hebergements">Hébergements</a>
+                    <a id="ancre_activites" class="lien" href="#section_activites">Activités</a>
+                </nav>
+                
+                <a href="inscription" class="inscription">S'inscrire</a>
+
+            </header>
+
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+            <h2>En plein centre ville ou en pleine nature</h2>
+
+            <!-- searchbar -->
+            <div class="search_flexbox">
+                <div class="search_icon_left">
+                    <i class="fas fa-map-marker-alt fa-2x"></i>
+                </div>
+
+                <input class="search_input" type="search" value="Marseille, France">
+                
+               <button class="button">
+                   <i class="fas fa-search fa-lg"></i>
+                </button>
+            </div>
+
+            <!-- filterbar -->
+            <div class="filters">
+                <p>Filtres</p>
+
+                <label class="filter">
+                    <input type="checkbox">
+                    <i class="fas fa-money-bill-wave"></i>
+                    <span>Economique</span>
+                </label>
+
+                <label class="filter">
+                    <input type="checkbox">
+                    <i class="fas fa-child filter_icone_fam"></i>
+                    <span>Familial</span>
+                </label>
+
+                <label class="filter">
+                    <input type="checkbox">
+                    <i class="fas fa-heart filter_icone_rom"></i>
+                    <span>Romantique</span>
+                </label>
+
+                <label class="filter">
+                    <input type="checkbox">
+                    <i class="fas fa-dog filter_icone_ani"></i>
+                    <span>Animaux autorisés</span>
+                </label>
+
+            </div>
+
+            <div class="info">
+                <i class="fas fa-info fa-xs"></i>
+                <span class="information_text">Plus de 500 logements sont disponibles dans cette ville</span>
+            </div>
+
+        </div>
+
+         <!-- hebergements -->
+         <section class="hebergements" id="section_hebergements">
             <article class="hebergements_exemple">
-                <h1>Hébergements à Marseille</h1>
+                <h6>Hébergements à Marseille</h6>
                 <div class="hebergement">
                     <a href="hebergement/auberge_la_cannebiere">
                         <img src="images/hebergement/auberge_la_cannebiere.jpg" alt="auberge_la_cannebiere"/>
@@ -118,8 +186,8 @@
             </article>
             <article class="populaires">
                 <div class="presentation_populaire">
-                    <h1>Les plus populaires</h1>
-                    <h1><i class="fas fa-chart-line"></i></h1>
+                    <h6>Les plus populaires</h6>
+                    <i class="fas fa-chart-line"></i>
                 </div>
                 <div class="populaire">
                     <a href="hebergement/hotel_soleil_du_matin">
@@ -173,8 +241,9 @@
         </section>
 
         <!-- activites -->
+
         <section class="activites" id="section_activites">
-            <h1>Activités à Marseille</h1>
+            <h6>Activités à Marseille</h6>
             <div class="activite_seule">
                 <div class="activite">
                     <a href="activite/vieux_port">
@@ -220,74 +289,6 @@
                 </div>
             </div>
         </section>
-
-        <div class="entete">
-            <!-- header -->
-            <header>
-                <div class="logo">
-                    <img src="images/reservia.svg" alt="logo Reservia">
-                </div>
-                <nav class="liens">
-                    <a id="ancre_hebergements" class="lien" href="#section_hebergements">Hébergements</a>
-                    <a id="ancre_activites" class="lien" href="#section_activites">Activités</a>
-                </nav>
-                
-                <a href="inscription" class="inscription">S'inscrire</a>
-
-            </header>
-
-            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-            <h2>En plein centre ville ou en pleine nature</h2>
-
-            <!-- searchbar -->
-            <div class="search_flexbox">
-                <div class="search_icon_left">
-                    <i class="fas fa-map-marker-alt fa-2x"></i>
-                </div>
-
-                <input class="search_input" type="search" value="Marseille, France">
-                
-               <button class="button">
-                   <i class="fas fa-search fa-lg"></i>
-                </button>
-            </div>
-
-            <!-- filterbar -->
-            <div class="filters">
-                <p>Filtres</p>
-
-                <label class="filter">
-                    <input type="checkbox">
-                    <i class="fas fa-money-bill-wave"></i>
-                    <span>Economique</span>
-                </label>
-
-                <label class="filter">
-                    <input type="checkbox">
-                    <i class="fas fa-child filter_icone_fam"></i>
-                    <span>Familial</span>
-                </label>
-
-                <label class="filter">
-                    <input type="checkbox">
-                    <i class="fas fa-heart filter_icone_rom"></i>
-                    <span>Romantique</span>
-                </label>
-
-                <label class="filter">
-                    <input type="checkbox">
-                    <i class="fas fa-dog filter_icone_ani"></i>
-                    <span>Animaux autorisés</span>
-                </label>
-
-            </div>
-
-            <div class="info">
-                <i class="fas fa-info fa-xs"></i>
-                <span class="information_text">Plus de 500 logements sont disponibles dans cette ville</span>
-            </div>
-
-        </div>
 
     </div>
 

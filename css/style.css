@@ -47,21 +47,6 @@ input:focus
     width: 98%;
 }
 
-.contenu > div.entete 
-{
-    order: 1;
-}
-
-.contenu > section.hebergements 
-{
-    order: 2;
-}
-
-.contenu > section.activites 
-{
-    order: 3;
-}
-
 /* --------------------------------------------------------------------------------------- */
 /* header */
 /* --------------------------------------------------------------------------------------- */
@@ -118,7 +103,7 @@ header
 }
 
 /* Style des titres */
-h1
+h1, h6, i
 {
     font-weight: 700;
     font-size: 1.8rem;
@@ -305,11 +290,11 @@ h2
     justify-content: space-around;
     align-content: space-between;
     flex-wrap: wrap;
-    width: 63%;
+    width: 67%;
     padding: 25px;
 }
 
-.hebergements_exemple > h1
+.hebergements_exemple > h6
 {
     width: 100%;
     text-align: left;
@@ -400,7 +385,7 @@ strong
     width: 100%;
 }
 
-.presentation_populaire > h1
+.presentation_populaire > h6
 {
     font-weight: 700;
     font-size: 1.8rem;
@@ -417,6 +402,7 @@ strong
     border-radius: 20px;
     box-shadow: 1px 1px 10px rgb(206, 204, 204);
     color: black;
+    width: 95%;
 }
 
 .populaire > a > img
@@ -490,7 +476,7 @@ i.inactive
     height: 500px;
 }
 
-.activites > h1
+.activites > h6
 {
     width: 100%;
     font-weight: 700;
