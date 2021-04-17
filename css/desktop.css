@@ -28,10 +28,8 @@
     border-top: 2px solid white;
 }
 
-/* Liens ancres survolés ou actifs */
-.lien:hover,
-#section_hebergements:target ~ div.entete #ancre_hebergements,
-#section_activites:target ~ div.entete #ancre_activites
+/* Liens ancres survolés */
+.lien:hover
 {
     border-top: 2px solid #0065FC;
 }
@@ -73,64 +71,38 @@
 /* activites */
 /* --------------------------------------------------------------------------------------- */
 
-.activites > div
-{
-    width: 23%;
-    height: 85%;
-}
-
-/* Style pour une activité seule */
-
-.activite_seule 
-{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: stretch;
-}
-
-/* Style pour des activités double */
-
-.activite_double 
+.activites
 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
+    max-height: 500px;
 }
 
-.activite_double > div 
+.activite
 {
-    width: 100%;
-    height: 45%;
+    width: 22%;
 }
 
-.activite_double > div > a > img
+.activite.seule 
 {
-    height: 75%;
-    max-height: 75%;
+    height: 500px;
 }
 
-.activite_double > div.large 
+.activite.large 
 {
-    height: 55%;
+    height: 280px;
 }
 
-.activite_double > div.large > a > img
+.activite.moyenne 
 {
-    height: 80%;
-    max-height: 80%;
+    height: 230px;
 }
 
-.activite_double > div.small
+.activite.petite 
 {
-    height: 35%;
-}
-
-.activite_double > div.small > a > img
-{
-    height: 70%;
-    max-height: 70%;
+    height: 180px;
 }
 
 /* --------------------------------------------------------------------------------------- */

@@ -1,6 +1,15 @@
 /* Feuille de style générale pour le support : mobile */
 
 /* --------------------------------------------------------------------------------------- */
+/* contenu */
+/* --------------------------------------------------------------------------------------- */
+
+.contenu {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/* --------------------------------------------------------------------------------------- */
 /* header */
 /* --------------------------------------------------------------------------------------- */
 
@@ -45,10 +54,8 @@ h2
     border-bottom: 2px solid white;
 }
 
-/* Liens ancres survolés ou actifs */
-.lien:hover,
-#section_hebergements:target ~ div.entete #ancre_hebergements,
-#section_activites:target ~ div.entete #ancre_activites
+/* Liens ancres survolés */
+.lien:hover
 {
     border-bottom: 2px solid #0065FC;
 }
@@ -120,29 +127,19 @@ h2
 /* activites */
 /* --------------------------------------------------------------------------------------- */
 
-.activites 
+.activites
 {
-    height: 1400px;
-    width: 95%;
-    justify-content: center;
-    margin: 0 auto;
-    margin-bottom: 2rem;
-}
-
-.activite_seule, .activite_double
-{
-    display: contents;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .activite
 {
-    height: 15%;
-    width: 95%;
-}
-
-.activite > a > img
-{
-    height: 80%;
+    width: 100%;
+    height: 180px;
+    margin-bottom: 20px;
 }
 
 /* --------------------------------------------------------------------------------------- */

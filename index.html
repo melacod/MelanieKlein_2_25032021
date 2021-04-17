@@ -23,8 +23,72 @@
 </head>
 <body>
 
-    <!-- Contenu avec le même padding droite/gauche -->
     <div class="contenu">
+
+        <!-- header -->
+        <header>
+            <div class="logo">
+                <img src="images/reservia.svg" alt="logo Reservia">
+            </div>
+            <nav class="liens">
+                <a id="ancre_hebergements" class="lien" href="#section_hebergements">Hébergements</a>
+                <a id="ancre_activites" class="lien" href="#section_activites">Activités</a>
+            </nav>
+            
+            <a href="inscription" class="inscription">S'inscrire</a>
+
+        </header>
+
+        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+        <h2>En plein centre ville ou en pleine nature</h2>
+
+        <!-- searchbar -->
+        <div class="search_flexbox">
+            <div class="search_icon_left">
+                <i class="fas fa-map-marker-alt fa-2x"></i>
+            </div>
+
+            <input class="search_input" type="search" value="Marseille, France">
+            
+        <button class="button">
+            <i class="fas fa-search fa-lg"></i>
+            </button>
+        </div>
+
+        <!-- filterbar -->
+        <div class="filters">
+            <p>Filtres</p>
+
+            <label class="filter">
+                <input type="checkbox">
+                <i class="fas fa-money-bill-wave"></i>
+                <span>Economique</span>
+            </label>
+
+            <label class="filter">
+                <input type="checkbox">
+                <i class="fas fa-child filter_icone_fam"></i>
+                <span>Familial</span>
+            </label>
+
+            <label class="filter">
+                <input type="checkbox">
+                <i class="fas fa-heart filter_icone_rom"></i>
+                <span>Romantique</span>
+            </label>
+
+            <label class="filter">
+                <input type="checkbox">
+                <i class="fas fa-dog filter_icone_ani"></i>
+                <span>Animaux autorisés</span>
+            </label>
+
+        </div>
+
+        <div class="info">
+            <i class="fas fa-info fa-xs"></i>
+            <span class="information_text">Plus de 500 logements sont disponibles dans cette ville</span>
+        </div>
 
         <!-- hebergements -->
         <section class="hebergements" id="section_hebergements">
@@ -173,124 +237,38 @@
         </section>
 
         <!-- activites -->
-        <section class="activites" id="section_activites">
-            <h1>Activités à Marseille</h1>
-            <div class="activite_seule">
-                <div class="activite">
-                    <a href="activite/vieux_port">
-                        <img src="images/activite/vieux_port.jpg" alt="vieux_port" />
-                        <h3>Vieux Port</h3>
-                    </a>
-                </div>
-            </div>
-            <div class="activite_double">
-                <div class="activite large">
-                    <a href="activite/fort_de_pomegues">
-                        <img src="images/activite/fort_de_pomegues.jpg" alt="fort_de_pomegues" />
-                        <h3>Fort de Pomègues</h3>
-                    </a>
-                </div>
-                <div class="activite small">
-                    <a href="activite/iles_du_frioul">
-                        <img src="images/activite/iles_du_frioul.jpg" alt="iles_du_frioul" />
-                        <h3>Iles du Frioul</h3>
-                    </a>
-                </div>
-            </div>
-            <div class="activite_seule">
-                <div class="activite">
-                    <a href="activite/parc_national_des_calanques">
-                        <img src="images/activite/parc_national_des_calanques.jpg" alt="parc_national_des_calanques"/>
-                        <h3>Parc National des Calanques</h3>
-                    </a>
-                </div>
-            </div>
-            <div class="activite_double">
-                <div class="activite">
-                    <a href="activite/notre_dame_de_la_garde">
-                        <img src="images/activite/notre_dame_de_la_garde.jpg" alt="notre_dame_de_la_garde" />
-                        <h3>Notre-Dame-de-la-Garde</h3>
-                    </a>
-                </div>
-                <div class="activite">
-                    <a href="activite/parc_longchamp">
-                        <img src="images/activite/parc_longchamp.jpg" alt="parc_longchamp" />
-                        <h3>Parc Longchamp</h3>
-                    </a>
-                </div>
+        <section id="section_activites">
+            <h2>Activités à Marseille</h2>
+            <div class="activites">
+                <a class="activite seule" href="activite/vieux_port">
+                    <img src="images/activite/vieux_port.jpg" alt="vieux_port" />
+                    <h3>Vieux Port</h3>
+                </a>
+                <a class="activite large" href="activite/fort_de_pomegues">
+                    <img src="images/activite/fort_de_pomegues.jpg" alt="fort_de_pomegues" />
+                    <h3>Fort de Pomègues</h3>
+                </a>
+                <a class="activite petite" href="activite/iles_du_frioul">
+                    <img src="images/activite/iles_du_frioul.jpg" alt="iles_du_frioul" />
+                    <h3>Iles du Frioul</h3>
+                </a>
+                <a class="activite seule" href="activite/parc_national_des_calanques">
+                    <img src="images/activite/parc_national_des_calanques.jpg" alt="parc_national_des_calanques"/>
+                    <h3>Parc National des Calanques</h3>
+                </a>
+                <a class="activite moyenne" href="activite/notre_dame_de_la_garde">
+                    <img src="images/activite/notre_dame_de_la_garde.jpg" alt="notre_dame_de_la_garde" />
+                    <h3>Notre-Dame-de-la-Garde</h3>
+                </a>
+                <a class="activite moyenne" href="activite/parc_longchamp">
+                    <img src="images/activite/parc_longchamp.jpg" alt="parc_longchamp" />
+                    <h3>Parc Longchamp</h3>
+                </a>
             </div>
         </section>
 
-        <div class="entete">
-            <!-- header -->
-            <header>
-                <div class="logo">
-                    <img src="images/reservia.svg" alt="logo Reservia">
-                </div>
-                <nav class="liens">
-                    <a id="ancre_hebergements" class="lien" href="#section_hebergements">Hébergements</a>
-                    <a id="ancre_activites" class="lien" href="#section_activites">Activités</a>
-                </nav>
-                
-                <a href="inscription" class="inscription">S'inscrire</a>
-
-            </header>
-
-            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-            <h2>En plein centre ville ou en pleine nature</h2>
-
-            <!-- searchbar -->
-            <div class="search_flexbox">
-                <div class="search_icon_left">
-                    <i class="fas fa-map-marker-alt fa-2x"></i>
-                </div>
-
-                <input class="search_input" type="search" value="Marseille, France">
-                
-               <button class="button">
-                   <i class="fas fa-search fa-lg"></i>
-                </button>
-            </div>
-
-            <!-- filterbar -->
-            <div class="filters">
-                <p>Filtres</p>
-
-                <label class="filter">
-                    <input type="checkbox">
-                    <i class="fas fa-money-bill-wave"></i>
-                    <span>Economique</span>
-                </label>
-
-                <label class="filter">
-                    <input type="checkbox">
-                    <i class="fas fa-child filter_icone_fam"></i>
-                    <span>Familial</span>
-                </label>
-
-                <label class="filter">
-                    <input type="checkbox">
-                    <i class="fas fa-heart filter_icone_rom"></i>
-                    <span>Romantique</span>
-                </label>
-
-                <label class="filter">
-                    <input type="checkbox">
-                    <i class="fas fa-dog filter_icone_ani"></i>
-                    <span>Animaux autorisés</span>
-                </label>
-
-            </div>
-
-            <div class="info">
-                <i class="fas fa-info fa-xs"></i>
-                <span class="information_text">Plus de 500 logements sont disponibles dans cette ville</span>
-            </div>
-
-        </div>
-
     </div>
-
+    
     <!-- footer -->
     <div class="footer_flexbox">
         <div>
