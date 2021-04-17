@@ -52,16 +52,9 @@ header
 /* searchbar */
 /* --------------------------------------------------------------------------------------- */
 
-.search_button_tablet
+.button::after
 {
-    display: block;
-    border: 2px solid #0065FC;
-    color: white;
-    background-color: #0065FC;
-    border-radius: 0px 10px 10px 0px;
-    padding: 12px;
-    font-size: 1.8rem;
-    font-weight: bold;
+   content: "Ok";
 }
 
 /* --------------------------------------------------------------------------------------- */

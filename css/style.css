@@ -23,6 +23,11 @@ input {
     font-family: 'Raleway';
 }
 
+input:focus
+{
+    outline: none;
+}
+
 /* --------------------------------------------------------------------------------------- */
 /* contenu */
 /* --------------------------------------------------------------------------------------- */
@@ -161,17 +166,19 @@ h2
     font-weight: 600;
 }
 
-.search_button
-{
-   display: none;
+.button 
+{ 
+    display: block;
+    border: 2px solid #0065FC;
+    border-radius: 0px 10px 10px 0px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+    background-color: #0065FC;
+    padding: 12px;
 }
 
-.search_button_tablet
-{
-    display: none
-}
-
-.search_button_mobile
+.button > i
 {
     display: none;
 }
