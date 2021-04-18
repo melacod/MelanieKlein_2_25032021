@@ -68,7 +68,20 @@ header
 /* hebergements */
 /* --------------------------------------------------------------------------------------- */
 
-.populaires, .hebergements_exemple
+.hebergements {
+    width: 90%;
+}
+
+.hebergement > a 
+{
+    width: 45%;
+}
+
+/* --------------------------------------------------------------------------------------- */
+/* populaires */
+/* --------------------------------------------------------------------------------------- */
+
+.populaires
 {
     width: 100%;
 }
@@ -80,17 +93,6 @@ header
     flex-wrap: wrap;
     justify-content: space-around;
     height: 350px;
-}
-
-.hebergements_exemple
-{
-    order: 2;
-}
-
-.hebergements_exemple > div
-{
-    width: 45%;
-    margin-bottom: 10px;
 }
 
 .populaire
