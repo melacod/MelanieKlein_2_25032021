@@ -73,7 +73,8 @@ strong
 /* contenu */
 /* --------------------------------------------------------------------------------------- */
 
-.contenu {
+.contenu 
+{
     padding-left: 3.4%;
     padding-right: 3.4%;
 }
@@ -294,10 +295,10 @@ header
     flex-wrap: wrap-reverse;
     align-items: stretch;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 .hebergements
 {
-    width: 65%;
     background-color: #F2F2F2;
     border-radius: 25px;
     padding-left: 30px;
@@ -373,33 +374,42 @@ header
 
 .populaires
 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    width: 25%;
     background-color: #F2F2F2;
-    padding: 25px;
     border-radius: 25px;
+    padding: 25px;
+    margin-bottom: 10px;
 }
 
 .populaires > p
 {
-    text-align: justify;
-    width: 100%;
     font-weight: 700;
     font-size: 2.2rem;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.populaires > p > i 
+{
+    float: right;
+}
+
+.populaire
+{
+    margin:10px;
+    padding-top: 10px;
 }
 
 .populaire > a
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
     background-color: white;
     border-radius: 20px;
     box-shadow: 1px 1px 10px rgb(206, 204, 204);
     color: black;
+
 }
 
 .populaire > a > img
@@ -423,12 +433,12 @@ header
     width: 100%;
 }
 
-.populaire > a > div > h3
+.populaire > a > div > h4
 {
     width: 100%;
     padding-top: 5%;
     padding-left: 6%;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     font-weight: 700;
 }
 
@@ -515,15 +525,15 @@ i.inactive
     display: flex;
     flex-flow: row wrap; 
     /* flex-flow: row wrap; = flex-direction = row; + flex-wrap = wrap; */
-    justify-content:center;
+    justify-content: space-around;
     align-items: flex-start;
 }
 
 .footer_flexbox > div
 {
     padding-left: 3%;
-    line-height: 1.8rem;
-    font-size: 1.4rem;
+    line-height: 3rem;
+    font-size: 1.8rem;
     font-weight: 400;
 }
 
@@ -531,6 +541,7 @@ i.inactive
 {
     font-weight: bold;
     padding-bottom: 0.7rem;
+    line-height: 4rem;
 }
 
 .footer_link > a {
