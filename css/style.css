@@ -297,6 +297,7 @@ header
     justify-content: space-between;
     margin-bottom: 20px;
 }
+
 .hebergements
 {
     background-color: #F2F2F2;
@@ -474,7 +475,7 @@ i.inactive
 {
     font-weight: 700;
     font-size: 2.2rem;
-    padding-top: 50px;
+    padding-top: 20px;
     padding-bottom: 25px;
 }
 
