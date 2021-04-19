@@ -380,6 +380,7 @@ header
     width: 25%;
     background-color: #F2F2F2;
     padding: 25px;
+    border-radius: 25px;
 }
 
 .populaires > p
