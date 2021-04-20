@@ -38,7 +38,7 @@
 /* searchbar */
 /* --------------------------------------------------------------------------------------- */
 
-.button::after
+.button > strong::after
 {
    content: "Rechercher";
 }
