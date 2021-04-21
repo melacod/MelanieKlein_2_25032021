@@ -106,36 +106,16 @@ header
 .activites
 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: space-between;
-    max-height: 450px;
+    justify-content: space-around;
 }
 
 .activite
 {
-    width: 22%;
-}
-
-.activite.seule 
-{
-    height: 450px;
-}
-
-.activite.large 
-{
-    height: 237px;
-}
-
-.activite.moyenne 
-{
+    width: 30%;
     height: 200px;
-}
-
-.activite.petite 
-{
-    height: 165px;
+    margin-bottom: 20px;
 }
 
 /* --------------------------------------------------------------------------------------- */
