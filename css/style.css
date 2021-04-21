@@ -55,6 +55,12 @@ strong
     font-weight: bold;
 }
 
+small
+{
+    font-size: 0.9rem;
+    font-weight: normal;
+}
+
 /* --------------------------------------------------------------------------------------- */
 /* contenu */
 /* --------------------------------------------------------------------------------------- */
@@ -69,7 +75,6 @@ strong
 /* header */
 /* --------------------------------------------------------------------------------------- */
 
-/* Flexbox pour l'entête */
 header
 {
    display: flex;
@@ -79,13 +84,11 @@ header
    line-height: 8rem;
 }
 
-/* Style du logo */
 .logo > img
 {
     vertical-align: middle;
 }
 
-/* Flexbox pour les liens */
 .liens
 {
     display: flex;
@@ -93,7 +96,6 @@ header
     justify-content: space-between;
 }
 
-/* Style des liens */
 .lien 
 {
     text-align:center;
@@ -102,7 +104,6 @@ header
     text-decoration: none;
 }
 
-/* Style pour le lien d'inscription */
 .inscription
 {
     text-align: center;
@@ -110,7 +111,8 @@ header
     color: #0065FC;
 }
 
-/* Liens ancres survolés */
+/* Style lorsque le filtre est survolé */
+
 .lien:hover
 {
     color: #0065FC;
@@ -174,8 +176,7 @@ header
     align-items: center;
     justify-content: start;
     flex-wrap: wrap;
-    padding-top: 2rem;
-    line-height: normal;
+    margin-top: 30px;
     margin-bottom: 10px;
 }
 
@@ -194,11 +195,11 @@ header
     margin-bottom: 10px;
 }
 
-.filter > input {
+.filter > input 
+{
     display: none;
 }
 
-/* Style pour l'icône */
 .filter > i
 {
     z-index: 2;
@@ -209,6 +210,21 @@ header
     width: 20px;
     text-align: center;
 }
+
+.filter > span 
+{
+    z-index: 1;
+    color: black;
+    padding: 14px;
+    border-radius: 25px;
+    padding-left: 50px;
+    border: #D9D9D9 solid 2px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Style lorsque le filtre est activé/désactivé */
 
 .filter > input:checked ~ i {
     color: black;
@@ -222,20 +238,8 @@ header
     background-color: #DEEBFF;
 }
 
-/* Style pour le texte */
-.filter > span {
-    z-index: 1;
-    color: black;
-    padding: 14px;
-    border-radius: 25px;
-    padding-left: 50px;
-    border: #D9D9D9 solid 2px;
-    font-size: 1.1rem;
-    font-weight: bold;
-    text-align: center;
-}
+/* Style lorsque le filtre est survolé */
 
-/* Style pour le texte lorsqu'on survole le filtre */
 .filter:hover > input:not(:checked) ~ span {
     background-color: #F2F2F2;
 }
@@ -244,7 +248,10 @@ header
     background-color:#DEEBFF;
 }
 
-/* Style pour l'information */
+/* --------------------------------------------------------------------------------------- */
+/* information */
+/* --------------------------------------------------------------------------------------- */
+
 .info 
 {
     margin-top: 15px;
@@ -256,17 +263,79 @@ header
     color:#0065FC;
     background-color: white;
     border: #DEEBFF solid 1px;
-    padding-left: 6px;
-    padding-right: 6px;
-    padding-top: 3px;
-    padding-bottom: 3px;
+    padding-left: 9px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 6px;
     border-radius: 100%;
     margin-right: 5px;
 }
 
 /* --------------------------------------------------------------------------------------- */
-/* hebergements */
+/* vignettes */
 /* --------------------------------------------------------------------------------------- */
+
+.vignettes
+{
+    background-color: #F2F2F2;
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-top: 45px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+
+.vignettes > h2
+{
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.vignettes > h2 > i
+{
+    float: right;
+}
+
+.vignettes > h3
+{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.vignette 
+{
+    padding: 5px;
+    box-shadow: 1px 1px 25px rgb(206, 204, 204);
+    border-radius: 15px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.vignette_info > div
+{
+    padding-top: 7px;
+    padding-left: 10px;
+    width: 100%;
+}
+
+i.active
+{
+    color: #0065FC;
+}
+
+i.inactive
+{
+    color: #DEEBFF;
+}
+
+/* --------------------------------------------------------------------------------------- */
+/* hebergements / populaires */
+/* --------------------------------------------------------------------------------------- */
+
 #zone_hebergements
 {
     display: flex;
@@ -277,155 +346,60 @@ header
     margin-bottom: 20px;
 }
 
-.hebergements
+.vignette.hebergement
 {
-    background-color: #F2F2F2;
-    border-radius: 25px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
 }
 
-.hebergement
+.vignette.hebergement > .vignette_image > img
 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    border-radius: 25px;
-    padding-top: 30px;
-}
-
-.hebergement > h3
-{
+    height: 115px;
     width: 100%;
-    text-align: left;
-    font-weight: 700;
-    font-size: 1.6rem;
-    color: black;
-    padding-bottom: 25px;
-}
-
-.hebergement > a 
-{
-    width: 30%;
-    padding: 5px;
-    box-shadow: 1px 1px 25px rgb(206, 204, 204);
-    border-radius: 25px;
-    margin-bottom: 30px;
-    color: black;
-}
-
-.hebergement > a > img
-{
-    width: 100%;
-    height: 120px;
-    border-radius: 25px 25px 0 0; 
+    border-radius: 15px 15px 0 0; 
     object-fit: cover;  
 }
 
-.hebergement > a > div
-{
-    padding-left: 10px;
-}
-
-/* --------------------------------------------------------------------------------------- */
-/* populaires */
-/* --------------------------------------------------------------------------------------- */
-
-.populaires
-{
-    background-color: #F2F2F2;
-    border-radius: 25px;
-    padding: 25px;
-}
-
-.populaires > p
-{
-    font-weight: 700;
-    font-size: 2.2rem;
-    width: 100%;
-    padding-top: 20px;
-}
-
-.populaires > p > i 
-{
-    float: right;
-}
-
-.populaire
-{
-    margin:10px;
-    padding-top: 10px;
-}
-
-.populaire > a
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
-    border-radius: 20px;
-    box-shadow: 1px 1px 10px rgb(206, 204, 204);
-    color: black;
-
-}
-
-.populaire > a > img
-{
-    display: block;
-    border-radius: 20px 0px 0px 20px;
-    height: 13.5rem;
-    width: 100%;
-    max-width: 12.8rem;
-    margin: 5px;     
-    object-fit: cover;   
-}  
-
-.populaire > a > div
+.vignette.populaire
 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: start;
-    text-align: left ;
     width: 100%;
 }
 
-.populaire > a > div > h4
+.vignette.populaire:last-child
+{
+    margin-bottom: 0;
+}
+
+.vignette.populaire > .vignette_image
+{
+    width: 40%;
+}
+
+.vignette.populaire > .vignette_image > img
 {
     width: 100%;
-    padding-top: 5%;
-    padding-left: 6%;
-    font-size: 1.8rem;
-    font-weight: 700;
+    height: 140px;
+    border-radius: 15px 0 0 15px; 
+    object-fit: cover;  
 }
 
-.populaire > a > div > span.price
+.vignette.populaire > .vignette_info
 {
-    align-content: flex-start;
-    width: 100%;
-    padding-left: 6%;
-    font-size: 1.3rem;
-    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    width: 50%;
+    padding: 10px;
 }
 
-.populaire > a > div > span.stars
-{
-    padding-left: 6%;
-}
 
-/* Style pour les étoiles */
-i.active
+.vignette.populaire > .vignette_info > div:nth-child(2)
 {
-    color: #0065FC;
-}
-
-i.inactive
-{
-    color: #DEEBFF;
+    height: 40%;
 }
 
 /* --------------------------------------------------------------------------------------- */

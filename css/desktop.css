@@ -4,9 +4,6 @@
 /* header */
 /* --------------------------------------------------------------------------------------- */
 
-/* Répartition des éléments de la flexbox d'entête */
-/* logo = 70% ; liens = 20% ; inscription = 10% */
-
 .logo
 {
     flex: 80 auto;
@@ -22,13 +19,13 @@
     flex: 10 auto;
 }
 
-/* Ajout d'une bodure en haut pour les liens */
 .lien 
 {
     border-top: 2px solid white;
 }
 
-/* Liens ancres survolés */
+/* Style lorsque le lien ancre est survolé */
+
 .lien:hover
 {
     border-top: 2px solid #0065FC;
@@ -44,22 +41,22 @@
 }
 
 /* --------------------------------------------------------------------------------------- */
-/* hebergements */
+/* hebergements / populaires */
 /* --------------------------------------------------------------------------------------- */
 
 .hebergements
 {
-    width: 65%;
+    width: 60%;
 }
 
-/* --------------------------------------------------------------------------------------- */
-/* populaires */
-/* --------------------------------------------------------------------------------------- */
+.hebergement
+{
+    width: 30%;
+}
 
 .populaires
 {
-    width: 26%;
-    padding: 25px;   
+    width: 27%;
 }
 
 /* --------------------------------------------------------------------------------------- */
