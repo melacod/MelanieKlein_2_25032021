@@ -110,8 +110,6 @@ header
     color: #0065FC;
 }
 
-/* Style lorsque le filtre est survolé */
-
 .lien:hover
 {
     color: #0065FC;
@@ -137,11 +135,6 @@ header
     background-color: #F2F2F2 ;
     width: 1rem;
     text-align: center;
-}
-
-.search_icon_left > i
-{
-    vertical-align: middle;
 }
 
 .search_input 
@@ -268,6 +261,7 @@ header
     padding-bottom: 6px;
     border-radius: 100%;
     margin-right: 5px;
+    height: 14px;
 }
 
 /* --------------------------------------------------------------------------------------- */

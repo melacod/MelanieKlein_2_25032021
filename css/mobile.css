@@ -5,95 +5,128 @@
 /* --------------------------------------------------------------------------------------- */
 
 .contenu {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/* --------------------------------------------------------------------------------------- */
+/* titres */
+/* --------------------------------------------------------------------------------------- */
+
+h1
+{
+    padding: 15px;
 }
 
 /* --------------------------------------------------------------------------------------- */
 /* header */
 /* --------------------------------------------------------------------------------------- */
 
-/* Modification de l'ordre des éléments de la flexbox d'entête */
-/* logo = 1 = 70% ; liens = 3 = 100% ; inscription = 2 = 30% */
+header
+{
+   line-height: 3.5rem;
+   padding-top: 15px;
+}
 
 .logo
 {
     order: 1;
     width: 40%;
+    padding-left: 20px;
 }
 
 .liens
 {
     order: 3;
     width: 100%;
-    padding-bottom: 5%;
-    font-size: 1.5rem;
+    margin-bottom: 20px;
 }
 
 .inscription
 {
     order: 2;
     width: 40%;
-    font-size: 1.5rem;
 }
-
-h1
-{
-    font-size: 1.8rem;
-}
-
-h2
-{
-    font-size: 1.7rem;
-}
-
-/* Ajout d'une bodure en bas pour les liens */
 
 .lien
 {
-    border-bottom: 2px solid white;
+    border-bottom: 3px solid #F2F2F2;
 }
 
-/* Liens ancres survolés */
 .lien:hover
 {
-    border-bottom: 2px solid #0065FC;
+    border-bottom: 3px solid #0065FC;
+}
+
+.description 
+{
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /* --------------------------------------------------------------------------------------- */
 /* searchbar */
 /* --------------------------------------------------------------------------------------- */
 
+.searchbar
+{
+    padding: 20px;
+}
+
+.searchbar > input
+{
+    width: 100%;
+}
+
 .button
 {
-    border-radius: 10px;
+    border-radius: 15px;
     margin-left: -15px; 
-    width: 5rem;
+    width: 50px;
+    padding: 1px;
 }
 
 .button > i 
 {
     display: initial ;
-    vertical-align: middle;
 }
 
 /* --------------------------------------------------------------------------------------- */
 /* filterbar */
 /* --------------------------------------------------------------------------------------- */
-.filters > h2
-{
-    width: 90%;
-}
 
 .filters
 {
-    width: 100%;   
+    padding-left: 15px;
+    margin-top: 5px;
+}
+
+.filters > h3
+{
+    width: 90%;
+    margin-bottom: 15px;
 }
 
 .info
 {
-    padding: 3%;
-    font-size: 1.6rem;
+    padding-left: 15px;
+    display: flex;
+}
+
+.info > i 
+{
+    margin-right: 10px;
+}
+
+/* --------------------------------------------------------------------------------------- */
+/* vignettes */
+/* --------------------------------------------------------------------------------------- */
+
+.vignettes
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
 }
 
 /* --------------------------------------------------------------------------------------- */
@@ -106,7 +139,7 @@ h2
     background-color: white;
 }
 
-.hebergement > a 
+.hebergement
 {
     width: 100%;
 }
@@ -136,17 +169,24 @@ h2
 /* activites */
 /* --------------------------------------------------------------------------------------- */
 
+#zone_activites > h2
+{
+    padding-top: 0px;
+    padding-left: 15px;
+}
+
 .activites
 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
 }
 
 .activite
 {
-    width: 100%;
+    width: 90%;
     height: 180px;
     margin-bottom: 20px;
 }
@@ -154,15 +194,15 @@ h2
 /* --------------------------------------------------------------------------------------- */
 /* footer */
 /* --------------------------------------------------------------------------------------- */
-.footer_flexbox
+
+footer
 {
     justify-content: space-around;
     align-items: flex-start;
 }
 
-.footer_flexbox > div
+footer > div
 {
     width: 100%;
     padding-bottom: 20px;
 }
-
