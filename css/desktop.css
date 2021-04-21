@@ -70,7 +70,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-between;
-    max-height: 500px;
+    max-height: 450px;
 }
 
 .activite
@@ -80,22 +80,22 @@
 
 .activite.seule 
 {
-    height: 500px;
+    height: 450px;
 }
 
 .activite.large 
 {
-    height: 280px;
+    height: 237px;
 }
 
 .activite.moyenne 
 {
-    height: 230px;
+    height: 200px;
 }
 
 .activite.petite 
 {
-    height: 180px;
+    height: 165px;
 }
 
 /* --------------------------------------------------------------------------------------- */
