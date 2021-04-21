@@ -16,8 +16,9 @@
 
     <!-- Une feuille de style général et une feuille par support: desktop / tablet / mobile -->
     <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="stylesheet" type="text/css" href="css/desktop.css" media="screen and (min-width: 992px)"  />
-    <link rel="stylesheet" type="text/css" href="css/tablet.css"  media="screen and (max-width: 991px) and (min-width: 768px)" />
+    <link rel="stylesheet" type="text/css" href="css/large.css"   media="screen and (min-width: 1200px)"  />
+    <link rel="stylesheet" type="text/css" href="css/desktop.css" media="screen and (max-width: 1199px) and (min-width: 992px)" />
+    <link rel="stylesheet" type="text/css" href="css/tablet.css"  media="screen and (max-width: 991px)  and (min-width: 768px)" />
     <link rel="stylesheet" type="text/css" href="css/mobile.css"  media="screen and (max-width: 767px)"  />
 
 </head>
@@ -31,8 +32,8 @@
                 <img src="images/reservia.svg" alt="logo Reservia">
             </div>
             <nav class="liens">
-                <a id="ancre_hebergements" class="lien" href="#zone_hebergements">Hébergements</a>
-                <a id="ancre_activites" class="lien" href="#zone_activites">Activités</a>
+                <a class="lien" id="ancre_hebergements"  href="#zone_hebergements">Hébergements</a>
+                <a class="lien" id="ancre_activites"     href="#zone_activites">Activités</a>
             </nav>
             <a href="inscription" class="inscription">S'inscrire</a>
         </header>
@@ -41,7 +42,7 @@
         <div>En plein centre ville ou en pleine nature</div>
 
         <!-- searchbar -->
-        <div class="search_flexbox">
+        <div class="searchbar">
             <div class="search_icon_left">
                 <i class="fas fa-map-marker-alt"></i>
             </div>
@@ -219,10 +220,12 @@
                     </div>
                     <div class="vignette_info">
                         <div>
-                            <strong>Hôtel Le soleil du matin</strong>
-                        </div>
-                        <div>
-                            <small>Nuit à partir de <strong>128€</strong></small>
+                            <div>
+                                <strong>Hôtel Le soleil du matin</strong>
+                            </div>
+                            <div>
+                                <small>Nuit à partir de <strong>128€</strong></small>
+                            </div>
                         </div>
                         <div class="stars">
                             <i class="fas fa-star fa-sm active"></i>
@@ -239,10 +242,12 @@
                     </div>
                     <div class="vignette_info">
                         <div>
-                            <strong>Au coeur de l'eau Chambres d'hôtes</strong>
-                        </div>
-                        <div>
-                            <small>Nuit à partir de <strong>71€</strong></small>
+                            <div>
+                                <strong>Au coeur de l'eau Chambres d'hôtes</strong>
+                            </div>
+                            <div>
+                                <small>Nuit à partir de <strong>71€</strong></small>
+                            </div>
                         </div>
                         <div class="stars">
                             <i class="fas fa-star fa-sm active"></i>
@@ -259,10 +264,12 @@
                     </div>
                     <div class="vignette_info">
                         <div>
-                            <strong>Hôtel Tout bleu et Blanc</strong>
-                        </div>
-                        <div>
-                            <small>Nuit à partir de <strong>68€</strong></small>
+                            <div>
+                                <strong>Hôtel Tout bleu et Blanc</strong>
+                            </div>
+                            <div>
+                                <small>Nuit à partir de <strong>68€</strong></small>
+                            </div>
                         </div>
                         <div class="stars">
                             <i class="fas fa-star fa-sm active"></i>
