@@ -78,7 +78,8 @@ small
 header
 {
    display: flex;
-   flex-flow: row wrap;
+   flex-direction: row;
+   flex-wrap: wrap;
    justify-content: space-between;
    align-items: center;
 }
@@ -91,6 +92,7 @@ header
 .liens
 {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
@@ -122,6 +124,7 @@ header
 .searchbar
 {
     display: flex;
+    flex-direction: row;
     align-items: stretch;
     margin-top: 1rem;
     line-height: 1.2;
@@ -147,7 +150,7 @@ header
 { 
     display: block;
     border: 2px solid #0065FC;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 0px 15px 15px 0px;
     color: white;
     background-color: #0065FC;
     padding: 12px;
@@ -165,6 +168,7 @@ header
 .filters
 {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: start;
     flex-wrap: wrap;
@@ -181,6 +185,7 @@ header
 .filter
 {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     margin-right: 15px;
