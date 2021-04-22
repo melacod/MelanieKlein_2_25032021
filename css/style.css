@@ -224,20 +224,8 @@ header
 /* Style lorsque le filtre est activé/désactivé */
 
 .filter > input:checked ~ i {
-    color: black;
-    border: #F2F2F2 solid 2px;
-    background-color: #F2F2F2;
-}
-
-.filter > input:not(:checked) ~ i {
     color: #0065FC;
     border: #DEEBFF solid 2px;
-    background-color: #DEEBFF;
-}
-
-.filter > input:checked ~ span {
-    color: #0065FC;
-    border: #F2F2F2 solid 2px;
     background-color: #DEEBFF;
 }
 
@@ -245,10 +233,6 @@ header
 
 .filter:hover > input:not(:checked) ~ span {
     background-color: #F2F2F2;
-}
-
-.filter:hover > input:checked ~ span {
-    background-color:#DEEBFF;
 }
 
 /* --------------------------------------------------------------------------------------- */
