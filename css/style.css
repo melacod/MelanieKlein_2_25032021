@@ -192,7 +192,7 @@ header
     margin-bottom: 10px;
 }
 
-.filter > input 
+.filter > input /*personnalisation cache à cocher*/
 {
     display: none;
 }
@@ -200,7 +200,7 @@ header
 .filter > i
 {
     z-index: 2;
-    padding: 15px;
+    padding: 12px;
     padding-right: 14px;
     border-radius: 100%;
     margin-right: -45px;
@@ -212,7 +212,7 @@ header
 {
     z-index: 1;
     color: black;
-    padding: 14px;
+    padding: 11.5px;
     border-radius: 25px;
     padding-left: 50px;
     border: #D9D9D9 solid 2px;
@@ -232,6 +232,12 @@ header
 .filter > input:not(:checked) ~ i {
     color: #0065FC;
     border: #DEEBFF solid 2px;
+    background-color: #DEEBFF;
+}
+
+.filter > input:checked ~ span {
+    color: #0065FC;
+    border: #F2F2F2 solid 2px;
     background-color: #DEEBFF;
 }
 
@@ -394,6 +400,13 @@ i.inactive
     padding-bottom: 5px;
 }
 
+.vignette:hover
+{
+    transition: transform 0.2s ease;
+    transform: scale(1.05);
+    box-shadow: 1px 1px 10px rgb(206, 204, 204);
+}
+
 /* --------------------------------------------------------------------------------------- */
 /* activites */
 /* --------------------------------------------------------------------------------------- */
@@ -435,6 +448,14 @@ i.inactive
     padding-left: 20px;
     padding-top: 15px;
 }
+
+.activite:hover
+{
+    transition: transform 0.2s ease;
+    transform: scale(1.05);
+    box-shadow: 1px 1px 10px rgb(206, 204, 204);
+}
+
 
 /* --------------------------------------------------------------------------------------- */
 /* footer */
