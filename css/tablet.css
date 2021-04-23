@@ -34,16 +34,21 @@ header
 
 .lien
 {
-    border-top: 3px solid var(--grey);
     border-bottom: 3px solid var(--grey);
 }
 
 .lien:hover, .lien:active
 {
-    border-top: 3px solid var(--blue);
     border-bottom: 3px solid var(--blue);
+    border-top: 0;
 }
 
+.lien.active 
+{
+    color: var(--blue);
+    border-bottom: 3px solid var(--blue);
+    border-top: 0;
+}
 
 /* --------------------------------------------------------------------------------------- */
 /* searchbar */

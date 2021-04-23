@@ -57,6 +57,14 @@ header
 .lien:hover, .lien:active
 {
     border-bottom: 3px solid var(--blue);
+    border-top: 0;
+}
+
+.lien.active 
+{
+    color: var(--blue);
+    border-bottom: 3px solid var(--blue);
+    border-top: 0;
 }
 
 .description 
