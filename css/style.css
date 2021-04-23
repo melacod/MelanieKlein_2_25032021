@@ -224,7 +224,7 @@ header
     text-align: center;
 }
 
-/* Style lorsque le filtre est activé/désactivé */
+/* Style lorsque le filtre est activé */
 
 .filter > input:checked ~ i {
     color: var(--blue);
@@ -232,7 +232,7 @@ header
     background-color: var(--light-blue);
 }
 
-/* Style lorsque le filtre est survolé */
+/* Style lorsque le filtre est inactivé et survolé */
 
 .filter:hover > input:not(:checked) ~ span {
     background-color: var(--grey);

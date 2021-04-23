@@ -91,9 +91,9 @@ header
     height: 450px;
 }
 
-.activite.large 
+.activite.petite 
 {
-    height: 237px;
+    height: 165px;
 }
 
 .activite.moyenne 
@@ -101,10 +101,11 @@ header
     height: 200px;
 }
 
-.activite.petite 
+.activite.large 
 {
-    height: 165px;
+    height: 237px;
 }
+
 
 /* --------------------------------------------------------------------------------------- */
 /* footer */
