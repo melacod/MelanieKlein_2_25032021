@@ -3,18 +3,15 @@
 /* Utilisation de la font Raleway */
 @import url(//fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap);
 
-:root {
-    --blue: #0065FC;
-    --light-blue: #DEEBFF;
-    --grey: #F2F2F2;
-}
-
 body
 {
     font-size: 16px;
     font-family: 'Raleway';
     font-weight: normal;
     font-style: normal;
+    --blue: #0065FC;
+    --light-blue: #DEEBFF;
+    --grey: #F2F2F2;
 }
 
 input {
@@ -255,7 +252,7 @@ header
 {
     color:var(--blue);
     background-color: white;
-    border: var(--light-blue) solid 1px;
+    border: var(--grey) solid 1px;
     padding-left: 9px;
     padding-right: 10px;
     padding-top: 5px;
