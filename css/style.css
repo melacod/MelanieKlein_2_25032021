@@ -111,7 +111,7 @@ header
 .inscription
 {
     text-align: center;
-    font-weight: 650;
+    font-weight: bold;
     color: var(--blue);
 }
 
