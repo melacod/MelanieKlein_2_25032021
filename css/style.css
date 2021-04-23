@@ -313,6 +313,13 @@ header
     width: 100%;
 }
 
+.vignette:hover
+{
+    transition: transform 0.2s ease;
+    transform: scale(1.05);
+    box-shadow: 1px 1px 10px rgb(206, 204, 204);
+}
+
 i.active
 {
     color: var(--blue);
@@ -385,13 +392,6 @@ i.inactive
 .vignette.populaire > .vignette_info > div > div
 {
     padding-bottom: 5px;
-}
-
-.vignette:hover
-{
-    transition: transform 0.2s ease;
-    transform: scale(1.05);
-    box-shadow: 1px 1px 10px rgb(206, 204, 204);
 }
 
 /* --------------------------------------------------------------------------------------- */
