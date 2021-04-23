@@ -420,7 +420,6 @@ i.inactive
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
     border-radius: 25px;
     box-shadow: 1px 1px 10px rgb(206, 204, 204);
     color: black;    

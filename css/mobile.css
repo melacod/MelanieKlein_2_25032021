@@ -194,6 +194,11 @@ header
     align-items: center;
 }
 
+.colonne
+{
+    display: contents;
+}
+
 .activite
 {
     width: 90%;

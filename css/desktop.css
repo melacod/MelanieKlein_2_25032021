@@ -109,6 +109,11 @@ header
     justify-content: space-around;
 }
 
+.colonne
+{
+    display: contents;
+}
+
 .activite
 {
     width: 30%;
