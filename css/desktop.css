@@ -29,7 +29,7 @@ header
     border-top: 3px solid #F2F2F2;
 }
 
-.lien:hover
+.lien:hover, .lien:active
 {
     border-top: 3px solid #0065FC;
 }

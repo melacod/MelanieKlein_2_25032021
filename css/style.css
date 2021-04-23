@@ -112,15 +112,9 @@ header
     color: #0065FC;
 }
 
-.lien:hover
+.lien:hover, .lien:active
 {
     color: #0065FC;
-}
-
-.lien.active
-{
-    color: #0065FC;
-    border-top: 3px solid #0065FC;
 }
 
 /* --------------------------------------------------------------------------------------- */

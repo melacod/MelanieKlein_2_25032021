@@ -54,7 +54,7 @@ header
     border-bottom: 3px solid #F2F2F2;
 }
 
-.lien:hover
+.lien:hover, .lien:active
 {
     border-bottom: 3px solid #0065FC;
 }
