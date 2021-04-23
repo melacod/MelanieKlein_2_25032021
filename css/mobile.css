@@ -51,12 +51,12 @@ header
 
 .lien
 {
-    border-bottom: 3px solid #F2F2F2;
+    border-bottom: 3px solid var(--grey);
 }
 
 .lien:hover, .lien:active
 {
-    border-bottom: 3px solid #0065FC;
+    border-bottom: 3px solid var(--blue);
 }
 
 .description 

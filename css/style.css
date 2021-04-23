@@ -3,6 +3,12 @@
 /* Utilisation de la font Raleway */
 @import url(//fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap);
 
+:root {
+    --blue: #0065FC;
+    --light-blue: #DEEBFF;
+    --grey: #F2F2F2;
+}
+
 body
 {
     font-size: 16px;
@@ -109,12 +115,12 @@ header
 {
     text-align: center;
     font-weight: 650;
-    color: #0065FC;
+    color: var(--blue);
 }
 
 .lien:hover, .lien:active
 {
-    color: #0065FC;
+    color: var(--blue);
 }
 
 /* --------------------------------------------------------------------------------------- */
@@ -133,26 +139,26 @@ header
 .search_icon_left
 {
     padding: 12px;
-    border: 2px solid #F2F2F2;
+    border: 2px solid var(--grey);
     border-radius: 15px 0px 0px 15px;
-    background-color: #F2F2F2 ;
+    background-color: var(--grey) ;
     width: 1rem;
     text-align: center;
 }
 
 .search_input 
 {
-    border: 1px #F2F2F2 solid;
+    border: 1px var(--grey) solid;
     padding: 12px;
 }
 
 .button 
 { 
     display: block;
-    border: 2px solid #0065FC;
+    border: 2px solid var(--blue);
     border-radius: 0px 15px 15px 0px;
     color: white;
-    background-color: #0065FC;
+    background-color: var(--blue);
     padding: 12px;
 }
 
@@ -215,7 +221,7 @@ header
     padding: 11.5px;
     border-radius: 25px;
     padding-left: 50px;
-    border: #D9D9D9 solid 2px;
+    border: var(--grey) solid 3px;
     font-size: 1.1rem;
     font-weight: bold;
     text-align: center;
@@ -224,15 +230,15 @@ header
 /* Style lorsque le filtre est activé/désactivé */
 
 .filter > input:checked ~ i {
-    color: #0065FC;
-    border: #DEEBFF solid 2px;
-    background-color: #DEEBFF;
+    color: var(--blue);
+    border: var(--light-blue) solid 2px;
+    background-color: var(--light-blue);
 }
 
 /* Style lorsque le filtre est survolé */
 
 .filter:hover > input:not(:checked) ~ span {
-    background-color: #F2F2F2;
+    background-color: var(--grey);
 }
 
 /* --------------------------------------------------------------------------------------- */
@@ -247,9 +253,9 @@ header
 
 .info > i
 {
-    color:#0065FC;
+    color:var(--blue);
     background-color: white;
-    border: #DEEBFF solid 1px;
+    border: var(--light-blue) solid 1px;
     padding-left: 9px;
     padding-right: 10px;
     padding-top: 5px;
@@ -265,7 +271,7 @@ header
 
 .vignettes
 {
-    background-color: #F2F2F2;
+    background-color: var(--grey);
     padding-left: 40px;
     padding-right: 30px;
     padding-top: 45px;
@@ -312,12 +318,12 @@ header
 
 i.active
 {
-    color: #0065FC;
+    color: var(--blue);
 }
 
 i.inactive
 {
-    color: #DEEBFF;
+    color: var(--light-blue);
 }
 
 /* --------------------------------------------------------------------------------------- */
@@ -452,7 +458,7 @@ footer
     flex-wrap: wrap; 
     justify-content: flex-end;
     align-items: flex-start;
-    background-color: #F2F2F2;
+    background-color: var(--grey);
     color: black;
     padding: 40px;
 }
@@ -474,5 +480,5 @@ footer a {
 
 footer a:hover {
     text-decoration: solid;
-    color: #0065FC;
+    color: var(--blue);
  }
