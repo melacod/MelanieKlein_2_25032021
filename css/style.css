@@ -117,6 +117,12 @@ header
     color: #0065FC;
 }
 
+.lien.active
+{
+    color: #0065FC;
+    border-top: 3px solid #0065FC;
+}
+
 /* --------------------------------------------------------------------------------------- */
 /* searchbar */
 /* --------------------------------------------------------------------------------------- */
@@ -253,7 +259,7 @@ header
     padding-left: 9px;
     padding-right: 10px;
     padding-top: 5px;
-    padding-bottom: 6px;
+    padding-bottom: 4px;
     border-radius: 100%;
     margin-right: 5px;
     height: 14px;
@@ -450,7 +456,7 @@ footer
     display: flex;
     flex-direction: row;
     flex-wrap: wrap; 
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: flex-start;
     background-color: #F2F2F2;
     color: black;
