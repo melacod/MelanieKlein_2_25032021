@@ -31,15 +31,15 @@ Un prototype du site qui devra répondre visuellement à la maquette émise par 
 + Icônes : Fontawesome
 
 ## Cibles
-3 supports cibles
+4 supports cibles
++ Large: largeur >= 1200px
 + Desktop : largeur >= 1025px
 + Tablette : 1024px >= largeur >= 480px
 + Iphone 8 : 479 >= largeur
 
 2 navigateurs cibles
-+ Mozilla Firefox version xxx
-+ Google Chrome version xxx
-
++ Mozilla Firefox version: 87.0.0-rc.1 Mar 17th, 2021
++ Google Chrome version: 90.0.4430.72 (Build officiel) (64 bits)
 ## A venir
 
 
